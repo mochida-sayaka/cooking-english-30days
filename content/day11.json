@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Tamagoyaki",
+    "intro": "Tamagoyaki is a sweet Japanese rolled egg. It is a popular side dish for bento.",
+    "ingredients": "eggs, sugar, soy sauce, mirin, salt, vegetable oil",
+    "steps": [
+      "**Crack** four eggs into a bowl.",
+      "**Add** sugar, soy sauce, mirin, and a little salt to the eggs.",
+      "**Mix** everything well with chopsticks.",
+      "**Heat** a little oil in a square pan on medium heat.",
+      "**Pour** a thin layer of egg into the pan and roll it to one side.",
+      "**Pour** more egg and roll again three or four times. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "crack", "meaning": "（卵を）割る"},
+    {"word": "egg", "meaning": "卵"},
+    {"word": "sugar", "meaning": "砂糖"},
+    {"word": "mirin", "meaning": "みりん"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "thin", "meaning": "薄い"},
+    {"word": "layer", "meaning": "層"},
+    {"word": "roll", "meaning": "巻く"},
+    {"word": "square", "meaning": "四角い"},
+    {"word": "medium", "meaning": "中くらいの"}
+  ],
+  "quiz1": {
+    "question": "卵焼きを作るとき、卵液をフライパンに何回くらい入れますか？",
+    "options": ["1回", "2回", "3〜4回以上"],
+    "correct": 2
+  },
+  "review": {
+    "restaurant": "Mimosa Garden Kitchen",
+    "location": "Paddington, Sydney",
+    "stars": 5,
+    "content": "I went to Mimosa Garden Kitchen last Saturday. It was in a quiet street in Paddington. The garden had many yellow mimosa flowers. I sat at a small table under a tree. I ate tamagoyaki with salad. The egg was soft and sweet. The garden was cozy and very pretty. I felt happy and relaxed there."
+  },
+  "review_vocab": [
+    {"word": "garden", "meaning": "庭・ガーデン"},
+    {"word": "quiet", "meaning": "静かな"},
+    {"word": "street", "meaning": "通り"},
+    {"word": "under", "meaning": "〜の下に"},
+    {"word": "tree", "meaning": "木"},
+    {"word": "soft", "meaning": "やわらかい"},
+    {"word": "sweet", "meaning": "甘い"},
+    {"word": "pretty", "meaning": "きれいな"},
+    {"word": "relaxed", "meaning": "リラックスした"},
+    {"word": "felt", "meaning": "感じた（feelの過去形）"}
+  ],
+  "quiz2": {
+    "question": "レストランの庭にはどんな花がありましたか？",
+    "options": ["ピンクのバラ", "白いジャスミン", "黄色いミモザ"],
+    "correct": 2
+  },
+  "australia_tips": {
+    "title": "オーストラリアで卵焼きを作るなら",
+    "content": "オーストラリアのスーパー（ColesやWoolworths）では、卵は「eggs」として簡単に買えます。Free range eggs（放し飼い卵）が人気で、少し高いですが味がいいです。みりんは「mirin」としてアジア食材コーナーにあります。\n\n卵焼き器（square pan）はアジア食材店やダイソーで手に入ることがあります。なければ、小さめのフライパンでも大丈夫です。丸い形になりますが、味は同じです。\n\nPaddingtonはシドニーのおしゃれなエリアです。カラフルなテラスハウスが並ぶ通りは写真スポットとして人気です。土曜日にはPaddington Marketsが開かれ、ハンドメイド雑貨やおいしい食べ物が楽しめます。\n\nワーホリでカフェの仕事を探すなら、卵料理ができると役立ちます。オーストラリアのカフェでは朝食メニューに卵料理が多いので、「I can cook egg dishes.」と言えるといいですね。"
+  },
+  "conversation": {
+    "scene": "カフェのキッチンで、先輩スタッフのLiamにお弁当の卵焼きを見せる場面",
+    "lines": [
+      {"speaker": "A", "text": "Hi Liam! Look at my lunch box."},
+      {"speaker": "B", "text": "Wow, that looks nice! What is the yellow thing?"},
+      {"speaker": "A", "text": "It is tamagoyaki. It is a Japanese rolled egg."},
+      {"speaker": "B", "text": "Rolled egg? How do you make it?"},
+      {"speaker": "A", "text": "I mix eggs with sugar and soy sauce. Then I cook it in a pan."},
+      {"speaker": "B", "text": "Is it sweet or salty?"},
+      {"speaker": "A", "text": "It is a little sweet and a little salty."},
+      {"speaker": "B", "text": "That sounds interesting. Can I try a piece?"},
+      {"speaker": "A", "text": "Sure! Here you go."},
+      {"speaker": "B", "text": "Mmm! It is soft and tasty. I like it!"},
+      {"speaker": "A", "text": "Thank you! I make it every morning for my bento."},
+      {"speaker": "B", "text": "You should sell it at the cafe! People will love it."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "lunch box", "meaning": "お弁当箱"},
+    {"word": "rolled", "meaning": "巻いた"},
+    {"word": "sweet", "meaning": "甘い"},
+    {"word": "salty", "meaning": "しょっぱい"},
+    {"word": "piece", "meaning": "ひとかけら"},
+    {"word": "tasty", "meaning": "おいしい"},
+    {"word": "every morning", "meaning": "毎朝"},
+    {"word": "sell", "meaning": "売る"},
+    {"word": "people", "meaning": "人々"},
+    {"word": "love", "meaning": "大好きである"}
+  ],
+  "quiz3": {
+    "question": "Liamは卵焼きを食べてどう言いましたか？",
+    "options": ["甘すぎると言った", "やわらかくておいしいと言った", "しょっぱいと言った"],
+    "correct": 1
+  },
+  "try_it_hint": "「これは〇〇です。甘くて少ししょっぱいです。」という文を英語で書いてみましょう。例：This is tamagoyaki. It is sweet and a little salty.",
+  "meta": {"day": 11, "en": "Tamagoyaki", "ja": "卵焼き", "emoji": "\ud83e\udd5a"}
+}

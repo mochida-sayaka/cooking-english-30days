@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "title": "How to Make Okonomiyaki",
+    "intro": "Okonomiyaki is a Japanese savory pancake. It has cabbage, meat, and a tasty sauce on top.",
+    "ingredients": "flour, egg, water, cabbage, pork belly slices, okonomiyaki sauce, mayonnaise, bonito flakes, vegetable oil",
+    "steps": [
+      "**Mix** flour, egg, and water in a big bowl to make the batter.",
+      "**Cut** the cabbage into thin pieces and add it to the batter.",
+      "**Heat** oil in a pan on medium heat.",
+      "**Pour** the batter into the pan and make a round shape.",
+      "**Put** pork slices on top and cook for four minutes. Then turn it over.",
+      "**Cook** for four more minutes and put sauce, mayonnaise, and bonito flakes on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "savory", "meaning": "しょっぱい系の・甘くない"},
+    {"word": "pancake", "meaning": "パンケーキ"},
+    {"word": "flour", "meaning": "小麦粉"},
+    {"word": "batter", "meaning": "生地"},
+    {"word": "pork belly", "meaning": "豚バラ肉"},
+    {"word": "slice", "meaning": "薄切り"},
+    {"word": "round", "meaning": "丸い"},
+    {"word": "shape", "meaning": "形"},
+    {"word": "mayonnaise", "meaning": "マヨネーズ"},
+    {"word": "bonito flakes", "meaning": "かつお節"}
+  ],
+  "quiz1": {
+    "question": "お好み焼きをひっくり返す前に、何分焼きますか？",
+    "options": ["2分", "4分", "6分"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Pink Blossom Terrace",
+    "location": "Balmoral Beach, Sydney",
+    "stars": 5,
+    "content": "I visited Pink Blossom Terrace last weekend. It was a small restaurant near Balmoral Beach. The terrace had pink flowers and white chairs. I could see the calm blue sea from my table. I ordered okonomiyaki and green tea. The pancake was hot and crispy. The sauce and mayonnaise were perfect together. It was a beautiful and peaceful place. I took many photos."
+  },
+  "review_vocab": [
+    {"word": "blossom", "meaning": "花"},
+    {"word": "terrace", "meaning": "テラス"},
+    {"word": "calm", "meaning": "穏やかな"},
+    {"word": "sea", "meaning": "海"},
+    {"word": "crispy", "meaning": "カリッとした"},
+    {"word": "perfect", "meaning": "完璧な"},
+    {"word": "peaceful", "meaning": "穏やかな・のどかな"},
+    {"word": "photo", "meaning": "写真"},
+    {"word": "chair", "meaning": "椅子"},
+    {"word": "together", "meaning": "一緒に"}
+  ],
+  "quiz2": {
+    "question": "レストランから何が見えましたか？",
+    "options": ["穏やかな青い海", "街の明かり", "山と森"],
+    "correct": 0
+  },
+  "australia_tips": {
+    "title": "オーストラリアでお好み焼きを作るなら",
+    "content": "小麦粉（flour）、卵（eggs）、キャベツ（cabbage）はどのスーパーでも手に入ります。豚バラ肉は「pork belly」としてお肉コーナーにあります。薄切りがほしい場合は、肉屋さん（butcher）で「Can you slice it thin, please?」とお願いしましょう。\n\nお好み焼きソースは「okonomiyaki sauce」としてアジア食材店で買えます。なければ、ウスターソースとケチャップを混ぜると似た味になります。かつお節（bonito flakes）もアジア食材店で見つかります。\n\nBalmoral Beachはシドニーの北にある静かで美しいビーチです。波が穏やかで、のんびりした雰囲気があります。ビーチ沿いにはおしゃれなカフェやレストランがあり、テラス席からの眺めは最高です。\n\nお好み焼きはパーティーにぴったりの料理です。ホットプレートがあれば、みんなで焼きながら楽しめます。「What toppings do you want?」と聞いて、好きな具材を選んでもらいましょう。"
+  },
+  "conversation": {
+    "scene": "シェアハウスでお好み焼きパーティーを開き、ハウスメイトのJackに作り方を教える場面",
+    "lines": [
+      {"speaker": "A", "text": "Jack, tonight we will make okonomiyaki. It is a Japanese pancake."},
+      {"speaker": "B", "text": "A pancake? Is it sweet?"},
+      {"speaker": "A", "text": "No, it is not sweet. It is savory. It has cabbage and pork inside."},
+      {"speaker": "B", "text": "Oh, interesting! What do I do first?"},
+      {"speaker": "A", "text": "First, cut the cabbage into thin pieces."},
+      {"speaker": "B", "text": "Like this? Is this thin enough?"},
+      {"speaker": "A", "text": "Yes, that is good! Now mix it with the batter."},
+      {"speaker": "B", "text": "OK. Can I cook it in the pan?"},
+      {"speaker": "A", "text": "Sure! Make a round shape. Put pork on top."},
+      {"speaker": "B", "text": "When do I turn it over?"},
+      {"speaker": "A", "text": "After four minutes. Be careful, it is heavy."},
+      {"speaker": "B", "text": "I did it! It looks great!"},
+      {"speaker": "A", "text": "Now put sauce and mayonnaise on top."},
+      {"speaker": "B", "text": "This is so much fun. And it smells amazing!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "savory", "meaning": "甘くない・しょっぱい系の"},
+    {"word": "inside", "meaning": "中に"},
+    {"word": "interesting", "meaning": "面白い"},
+    {"word": "enough", "meaning": "十分に"},
+    {"word": "batter", "meaning": "生地"},
+    {"word": "careful", "meaning": "気をつけて"},
+    {"word": "heavy", "meaning": "重い"},
+    {"word": "looks", "meaning": "〜に見える"},
+    {"word": "amazing", "meaning": "すごい"},
+    {"word": "so much fun", "meaning": "とても楽しい"}
+  ],
+  "quiz3": {
+    "question": "Jackがお好み焼きをひっくり返すとき、何に気をつけるように言われましたか？",
+    "options": ["熱いから", "重いから", "やわらかいから"],
+    "correct": 1
+  },
+  "try_it_hint": "「これは甘いですか？」「いいえ、甘くないです。しょっぱい系です。」という会話を英語で書いてみましょう。例：Is it sweet? No, it is not sweet. It is savory.",
+  "meta": {"day": 14, "en": "Okonomiyaki", "ja": "お好み焼き", "emoji": "\ud83e\udd5e"}
+}

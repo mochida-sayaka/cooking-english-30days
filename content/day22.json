@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Tempura",
+    "intro": "Tempura is Japanese fried food. Shrimp and vegetables are covered in light batter.",
+    "ingredients": "shrimp, sweet potato, eggplant, green beans, flour, egg, cold water, vegetable oil, soy sauce, dashi, grated daikon",
+    "steps": [
+      "**Peel** the shrimp and cut the vegetables into pieces.",
+      "**Mix** flour, one egg, and very cold water in a bowl to make batter.",
+      "**Heat** a lot of oil in a deep pot to 180 degrees.",
+      "**Dip** the shrimp and vegetables in the batter.",
+      "**Fry** them in the oil for two or three minutes until golden.",
+      "**Put** them on paper to remove extra oil and serve with dipping sauce. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "fried", "meaning": "揚げた"},
+    {"word": "batter", "meaning": "衣（ころも）"},
+    {"word": "flour", "meaning": "小麦粉"},
+    {"word": "dip", "meaning": "浸す・つける"},
+    {"word": "deep", "meaning": "深い"},
+    {"word": "golden", "meaning": "きつね色の"},
+    {"word": "remove", "meaning": "取り除く"},
+    {"word": "extra", "meaning": "余分な"},
+    {"word": "degree", "meaning": "度"},
+    {"word": "dipping sauce", "meaning": "つけだれ・天つゆ"}
+  ],
+  "quiz1": {
+    "question": "天ぷらの衣を作るとき、水はどうしますか？",
+    "options": ["お湯を使う", "とても冷たい水を使う", "ぬるい水を使う"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Cliff Garden Dining",
+    "location": "Cremorne Point, Sydney",
+    "stars": 5,
+    "content": "I visited Cliff Garden Dining at Cremorne Point last weekend. The restaurant was on a cliff near the water. I could see the Sydney Harbour Bridge from my seat. The garden had lavender and yellow flowers. I ordered tempura and it was so crispy and light. The shrimp was big and fresh. The place was very relaxing. I want to go back again."
+  },
+  "review_vocab": [
+    {"word": "cliff", "meaning": "崖（がけ）"},
+    {"word": "bridge", "meaning": "橋"},
+    {"word": "garden", "meaning": "庭"},
+    {"word": "lavender", "meaning": "ラベンダー"},
+    {"word": "ordered", "meaning": "注文した"},
+    {"word": "crispy", "meaning": "サクサクの"},
+    {"word": "light", "meaning": "軽い"},
+    {"word": "fresh", "meaning": "新鮮な"},
+    {"word": "relaxing", "meaning": "リラックスできる"},
+    {"word": "seat", "meaning": "席"}
+  ],
+  "quiz2": {
+    "question": "このレストランからは何が見えましたか？",
+    "options": ["シドニーハーバーブリッジ", "オペラハウス", "ブリスベン川"],
+    "correct": 0
+  },
+  "australia_tips": {
+    "title": "オーストラリアで天ぷらを作ろう！",
+    "content": "天ぷらに使うエビ（Prawns/Shrimp）は、オーストラリアのスーパーや魚屋さん（fish shop）で新鮮なものが手に入ります。さつまいも（Sweet potato）はオーストラリアでもとても人気があり、どこでも買えます。オーストラリアのさつまいもはオレンジ色が多いですが、天ぷらに使えます。\n\nクレモーンポイント（Cremorne Point）はシドニーの北側にある静かなエリアです。ハーバーブリッジやオペラハウスが見える絶景スポットがあります。フェリーでサーキュラーキーから簡単に行けるので、ワーホリ中にぜひ訪れてみてください。\n\n天ぷらを上手に揚げるコツは、衣をよく冷やすことです。オーストラリアのキッチンでは、油の処理に注意しましょう。使った油は「cooking oil recycling」に出すか、紙に吸わせてゴミに捨てます。シンクに流さないようにしましょう。\n\nクレモーンポイントには、ラベンダーの花が咲く小さな公園もあります。海を見ながら散歩した後に、手作りの天ぷらをお弁当に持っていくのもいいですね。"
+  },
+  "conversation": {
+    "scene": "オーストラリアのフードマーケットで、お客さんに天ぷらを売る場面",
+    "lines": [
+      {"speaker": "A", "text": "Hello! What are you selling?"},
+      {"speaker": "B", "text": "Hi! I am selling tempura. It is Japanese fried food."},
+      {"speaker": "A", "text": "What kind of tempura do you have?"},
+      {"speaker": "B", "text": "I have shrimp, sweet potato, and eggplant."},
+      {"speaker": "A", "text": "How much is the shrimp tempura?"},
+      {"speaker": "B", "text": "It is five dollars for three pieces."},
+      {"speaker": "A", "text": "That is good. I will take the shrimp, please."},
+      {"speaker": "B", "text": "OK! It is very fresh today."},
+      {"speaker": "A", "text": "Do you have any sauce?"},
+      {"speaker": "B", "text": "Yes, here is the dipping sauce. And some grated daikon too."},
+      {"speaker": "A", "text": "Thank you! Wow, this is really crispy!"},
+      {"speaker": "B", "text": "I am glad you like it! Please come again."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "selling", "meaning": "売っている"},
+    {"word": "kind", "meaning": "種類"},
+    {"word": "how much", "meaning": "いくら"},
+    {"word": "dollar", "meaning": "ドル"},
+    {"word": "piece", "meaning": "個・切れ"},
+    {"word": "take", "meaning": "（注文で）もらう"},
+    {"word": "sauce", "meaning": "ソース・たれ"},
+    {"word": "grated", "meaning": "すりおろした"},
+    {"word": "glad", "meaning": "うれしい"},
+    {"word": "come again", "meaning": "また来てね"}
+  ],
+  "quiz3": {
+    "question": "エビの天ぷらは3つでいくらですか？",
+    "options": ["3ドル", "5ドル", "7ドル"],
+    "correct": 1
+  },
+  "try_it_hint": "「How much is the ○○?」「It is ○○ dollars.」の形を使って、値段を聞いたり答えたりしてみましょう。例：How much is the cake? It is four dollars.",
+  "meta": {"day": 22, "en": "Tempura", "ja": "天ぷら", "emoji": "\ud83c\udf64"}
+}

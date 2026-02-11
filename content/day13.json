@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Japanese Curry",
+    "intro": "Japanese curry is a thick and warm dish. Many Japanese people love it with rice.",
+    "ingredients": "beef or chicken, potato, carrot, onion, curry roux, water, vegetable oil",
+    "steps": [
+      "**Cut** the meat, potato, carrot, and onion into small pieces.",
+      "**Heat** oil in a big pot on medium heat.",
+      "**Cook** the onion until it is soft and light brown.",
+      "**Add** the meat, potato, and carrot and cook for three minutes.",
+      "**Pour** water into the pot and cook for twenty minutes.",
+      "**Add** the curry roux and stir until the sauce is thick. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "curry", "meaning": "カレー"},
+    {"word": "thick", "meaning": "とろっとした・濃い"},
+    {"word": "potato", "meaning": "じゃがいも"},
+    {"word": "carrot", "meaning": "にんじん"},
+    {"word": "onion", "meaning": "たまねぎ"},
+    {"word": "roux", "meaning": "ルー"},
+    {"word": "pot", "meaning": "鍋"},
+    {"word": "stir", "meaning": "かき混ぜる"},
+    {"word": "light brown", "meaning": "きつね色の"},
+    {"word": "beef", "meaning": "牛肉"}
+  ],
+  "quiz1": {
+    "question": "カレールーを入れる前に、水を入れてどのくらい煮ますか？",
+    "options": ["10分", "20分", "30分"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Lavender Hill Cafe",
+    "location": "Coogee Beach, Sydney",
+    "stars": 5,
+    "content": "I went to Lavender Hill Cafe on a sunny Sunday. It was near Coogee Beach. The walls were painted in soft lavender. I sat by the window and watched the waves. I had Japanese curry with rice. It was thick and very warm. The cafe was small and cozy. Soft music was playing. I wanted to stay there all day."
+  },
+  "review_vocab": [
+    {"word": "sunny", "meaning": "晴れた"},
+    {"word": "wall", "meaning": "壁"},
+    {"word": "painted", "meaning": "塗られた"},
+    {"word": "lavender", "meaning": "ラベンダー色"},
+    {"word": "window", "meaning": "窓"},
+    {"word": "wave", "meaning": "波"},
+    {"word": "warm", "meaning": "温かい"},
+    {"word": "music", "meaning": "音楽"},
+    {"word": "playing", "meaning": "流れていた"},
+    {"word": "stay", "meaning": "滞在する・いる"}
+  ],
+  "quiz2": {
+    "question": "カフェの壁は何色でしたか？",
+    "options": ["ピンク", "ラベンダー色", "黄色"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでカレーを作るなら",
+    "content": "日本のカレールーはオーストラリアのアジア食材店で買えます。ColesやWoolworthsのアジア食材コーナーにも置いてあることがあります。「Japanese curry roux」で探してみましょう。バーモントカレーやジャワカレーなど、日本でおなじみのブランドが見つかります。\n\nじゃがいも（potato）、にんじん（carrot）、たまねぎ（onion）はどのスーパーでも安く買えます。オーストラリアの牛肉（beef）は質が良くて値段も手頃です。「diced beef」（角切り牛肉）を買うとカレーにぴったりです。\n\nCoogee Beachはシドニーの東にある美しいビーチです。BondiからCoogeeまでの海沿いの散歩道「Coastal Walk」は絶景スポットです。歩いた後に温かいカレーを食べるのは最高ですね。\n\nシェアハウスでカレーを作ると、いい香りが家中に広がります。ハウスメイトに「Do you want some curry?」と声をかけてみましょう。カレーは世界中で人気なので、きっと喜ばれますよ。"
+  },
+  "conversation": {
+    "scene": "スーパーマーケットで、友達のMiaと一緒にカレーの材料を買う場面",
+    "lines": [
+      {"speaker": "A", "text": "Mia, I want to make Japanese curry tonight. Can you help me find the things?"},
+      {"speaker": "B", "text": "Sure! What do we need?"},
+      {"speaker": "A", "text": "We need potatoes, carrots, onions, and beef."},
+      {"speaker": "B", "text": "OK, the vegetables are over there. How many potatoes?"},
+      {"speaker": "A", "text": "Two big ones, please. And three carrots."},
+      {"speaker": "B", "text": "Got it. Where is the beef?"},
+      {"speaker": "A", "text": "It is near the back of the store. I need diced beef."},
+      {"speaker": "B", "text": "What about the curry sauce?"},
+      {"speaker": "A", "text": "I need curry roux. It is in the Asian food section."},
+      {"speaker": "B", "text": "I found it! This one?"},
+      {"speaker": "A", "text": "Yes, that is the one. Thank you!"},
+      {"speaker": "B", "text": "Japanese curry smells so good. I cannot wait for dinner!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "find", "meaning": "見つける"},
+    {"word": "vegetables", "meaning": "野菜"},
+    {"word": "over there", "meaning": "あそこに"},
+    {"word": "how many", "meaning": "いくつ"},
+    {"word": "back", "meaning": "奥"},
+    {"word": "store", "meaning": "お店"},
+    {"word": "diced", "meaning": "角切りの"},
+    {"word": "section", "meaning": "コーナー・売り場"},
+    {"word": "found", "meaning": "見つけた（findの過去形）"},
+    {"word": "cannot wait", "meaning": "待ちきれない"}
+  ],
+  "quiz3": {
+    "question": "カレールーはスーパーのどこにありましたか？",
+    "options": ["野菜コーナー", "肉コーナー", "アジア食材コーナー"],
+    "correct": 2
+  },
+  "try_it_hint": "「〇〇はどこにありますか？」「あそこにあります。」という文を英語で書いてみましょう。例：Where is the beef? It is over there.",
+  "meta": {"day": 13, "en": "Japanese Curry", "ja": "カレー", "emoji": "\ud83c\udf5b"}
+}

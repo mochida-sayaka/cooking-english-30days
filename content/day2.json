@@ -1,0 +1,99 @@
+{
+  "recipe": {
+    "title": "How to Make Shumai",
+    "intro": "Shumai are small steamed dumplings from Japan. They are soft and very tasty.",
+    "ingredients": "ground pork, onion, corn starch, soy sauce, sesame oil, sugar, salt, pepper, shumai wrappers, green peas",
+    "steps": [
+      "**Cut** the onion into very small pieces and mix with corn starch.",
+      "**Put** the pork, onion, soy sauce, sesame oil, sugar, salt, and pepper in a bowl and mix well.",
+      "**Hold** one wrapper in your hand and put some meat in the middle.",
+      "**Close** the wrapper around the meat but leave the top open.",
+      "**Put** one green pea on top of each shumai.",
+      "**Steam** the shumai for about ten minutes until they are cooked. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "steamed", "meaning": "蒸した"},
+    {"word": "tasty", "meaning": "おいしい"},
+    {"word": "onion", "meaning": "玉ねぎ"},
+    {"word": "corn starch", "meaning": "片栗粉"},
+    {"word": "sugar", "meaning": "砂糖"},
+    {"word": "middle", "meaning": "真ん中"},
+    {"word": "close", "meaning": "閉じる"},
+    {"word": "leave", "meaning": "〜のままにする"},
+    {"word": "top", "meaning": "上"},
+    {"word": "until", "meaning": "〜まで"}
+  ],
+  "quiz1": {
+    "question": "シュウマイの上にのせるものは何ですか？",
+    "options": ["コーン", "グリーンピース", "チーズ"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "River Garden Kitchen",
+    "location": "South Bank, Brisbane",
+    "stars": 5,
+    "content": "I visited River Garden Kitchen last weekend. It was at South Bank in Brisbane. I sat in the garden area near the river. The view was so pretty. I could see the city and the water. I ordered shumai and they were very soft and hot. The garden had many flowers, and I saw some yellow and lavender ones. The staff were kind and the music was quiet. I felt very relaxed there."
+  },
+  "review_vocab": [
+    {"word": "visited", "meaning": "訪れた"},
+    {"word": "garden", "meaning": "庭・ガーデン"},
+    {"word": "river", "meaning": "川"},
+    {"word": "pretty", "meaning": "きれいな"},
+    {"word": "view", "meaning": "景色"},
+    {"word": "ordered", "meaning": "注文した"},
+    {"word": "soft", "meaning": "やわらかい"},
+    {"word": "staff", "meaning": "スタッフ・店員"},
+    {"word": "quiet", "meaning": "静かな"},
+    {"word": "relaxed", "meaning": "リラックスした"}
+  ],
+  "quiz2": {
+    "question": "このレストランはどこにありましたか？",
+    "options": ["シドニーのビーチ沿い", "ブリスベンのサウスバンク", "ゴールドコーストの山の近く"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでシュウマイを作るなら",
+    "content": "シュウマイの皮（shumai wrappers / wonton wrappers）は、アジア食材店で買えます。ブリスベンには「Sunlit Asian Supermarket」などの大きなアジア食材店があり、日本の調味料もそろっています。グリーンピースは冷凍（frozen）のものがスーパーで手軽に買えます。\n\nブリスベンのサウスバンク（South Bank）は、街の中心にある人気の散歩エリアです。川沿いに公園やレストランが並び、週末にはマーケットも開かれます。テラス席のあるカフェも多く、のんびりとした雰囲気が魅力です。\n\n蒸し器（steamer）がない場合は、大きなお鍋とお皿で代用できます。フライパンに水を入れ、お皿を置いてふたをすれば簡単に蒸せます。シェアハウスのキッチンでも作りやすいですよ。\n\nブリスベンは「サンシャインステート」と呼ばれるクイーンズランド州にあり、一年中暖かい気候です。公園にはジャスミンの花が咲いていることもあり、お散歩にぴったりです。ワーホリで働きながら、週末はカフェ巡りを楽しんでみてください。"
+  },
+  "conversation": {
+    "scene": "職場（カフェ）の休憩時間に、同僚のLiamにシュウマイの話をする場面",
+    "lines": [
+      {"speaker": "A", "text": "Liam, do you know shumai?"},
+      {"speaker": "B", "text": "Shumai? No, I do not know. What is it?"},
+      {"speaker": "A", "text": "It is a small steamed dumpling from Japan."},
+      {"speaker": "B", "text": "Oh, like dim sum? I like dim sum!"},
+      {"speaker": "A", "text": "Yes! Shumai is a kind of dim sum. It is very soft."},
+      {"speaker": "B", "text": "What is inside?"},
+      {"speaker": "A", "text": "Pork and onion. And there is a green pea on top."},
+      {"speaker": "B", "text": "That sounds cute. Is it hard to make?"},
+      {"speaker": "A", "text": "No, it is easy. You do not need an oven."},
+      {"speaker": "B", "text": "Really? How do you cook it?"},
+      {"speaker": "A", "text": "You steam it. It takes about ten minutes."},
+      {"speaker": "B", "text": "Nice! Can you make some for our next day off?"},
+      {"speaker": "A", "text": "Sure! I will bring some to the share house."},
+      {"speaker": "B", "text": "Great! I cannot wait. Thank you!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "steamed", "meaning": "蒸した"},
+    {"word": "kind", "meaning": "種類"},
+    {"word": "inside", "meaning": "中に"},
+    {"word": "sound", "meaning": "〜に聞こえる"},
+    {"word": "hard", "meaning": "難しい"},
+    {"word": "oven", "meaning": "オーブン"},
+    {"word": "really", "meaning": "本当に？"},
+    {"word": "steam", "meaning": "蒸す"},
+    {"word": "next", "meaning": "次の"},
+    {"word": "day off", "meaning": "休みの日"},
+    {"word": "bring", "meaning": "持ってくる"},
+    {"word": "cannot wait", "meaning": "待ちきれない"}
+  ],
+  "quiz3": {
+    "question": "Liamはシュウマイについて何と言いましたか？",
+    "options": ["作るのが難しそうだと言った", "次の休みに作ってほしいと頼んだ", "dim sumは好きではないと言った"],
+    "correct": 1
+  },
+  "try_it_hint": "「〇〇を知っていますか？日本の料理です。」という文を英語で書いてみましょう。例：Do you know takoyaki? It is a Japanese food.",
+  "meta": {"day": 2, "en": "Shumai", "ja": "シュウマイ", "emoji": "\ud83d\udfe1"}
+}

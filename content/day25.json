@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Oyakodon",
+    "intro": "Oyakodon is a Japanese rice bowl with chicken and egg. The name means 'parent and child.'",
+    "ingredients": "chicken thigh, onion, eggs, soy sauce, mirin, sugar, dashi stock, cooked rice, green onion",
+    "steps": [
+      "**Cut** the chicken thigh and onion into small pieces.",
+      "**Mix** soy sauce, mirin, sugar, and dashi stock in a small pan.",
+      "**Cook** the onion and chicken in the sauce on medium heat.",
+      "**Beat** two or three eggs in a bowl.",
+      "**Pour** the eggs over the chicken and cook for one minute.",
+      "**Put** the chicken and egg on top of hot rice in a bowl. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "rice bowl", "meaning": "丼もの"},
+    {"word": "chicken thigh", "meaning": "鶏もも肉"},
+    {"word": "onion", "meaning": "玉ねぎ"},
+    {"word": "beat", "meaning": "（卵を）溶く"},
+    {"word": "parent", "meaning": "親"},
+    {"word": "child", "meaning": "子"},
+    {"word": "pan", "meaning": "フライパン・浅い鍋"},
+    {"word": "sugar", "meaning": "砂糖"},
+    {"word": "on top of", "meaning": "〜の上に"},
+    {"word": "cooked rice", "meaning": "炊いたごはん"}
+  ],
+  "quiz1": {
+    "question": "親子丼の「親子」とは英語で何という意味ですか？",
+    "options": ["husband and wife", "parent and child", "brother and sister"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Riverbank Jasmine Cafe",
+    "location": "Bulimba, Brisbane",
+    "stars": 5,
+    "content": "I went to Riverbank Jasmine Cafe in Bulimba last Wednesday. It was right next to the Brisbane River. I sat on the wooden deck and watched boats on the river. The air smelled like jasmine flowers. I ordered oyakodon and green tea. The chicken was soft and the egg was creamy. The rice was hot and fluffy. It was a simple but wonderful meal. I felt like I was in Japan."
+  },
+  "review_vocab": [
+    {"word": "right next to", "meaning": "すぐ隣に"},
+    {"word": "wooden", "meaning": "木の"},
+    {"word": "deck", "meaning": "デッキ"},
+    {"word": "boat", "meaning": "ボート"},
+    {"word": "air", "meaning": "空気"},
+    {"word": "creamy", "meaning": "クリーミーな・とろっとした"},
+    {"word": "fluffy", "meaning": "ふわふわの"},
+    {"word": "simple", "meaning": "シンプルな"},
+    {"word": "wonderful", "meaning": "すばらしい"},
+    {"word": "meal", "meaning": "食事"}
+  ],
+  "quiz2": {
+    "question": "カフェの空気はどんなにおいがしましたか？",
+    "options": ["コーヒーのにおい", "ジャスミンの花のにおい", "パンのにおい"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで親子丼を作ろう！",
+    "content": "鶏もも肉（Chicken thigh）はオーストラリアのどのスーパーでも手に入ります。「Chicken thigh fillet」（骨なし）を選ぶと使いやすいです。卵（Eggs）は「free range eggs」（放し飼い）がおすすめで、味が濃くておいしいです。\n\nブリンバ（Bulimba）はブリスベンの川沿いにあるおしゃれな住宅街です。Oxford Streetにはカフェやブティックが並び、週末にはのんびり散歩を楽しむ人がたくさんいます。フェリーでシティから簡単にアクセスできます。\n\nワーホリ中の自炊で、親子丼はとてもおすすめです。材料が少なく、安く作れて、お腹がいっぱいになります。めんつゆ（Tsuyu）があれば、醤油・みりん・砂糖・だしの代わりに使えるので、さらに簡単です。アジア食材店で「Mentsuyu」を探してみましょう。\n\nブリンバの川沿いには、ジャスミンの花が咲く遊歩道があります。春になると甘い香りが漂い、とても気持ちがいいです。ピンクや黄色の花も多く、お気に入りの散歩コースになるかもしれません。"
+  },
+  "conversation": {
+    "scene": "ワーホリ先のレストランで、お客さんにおすすめのメニューを紹介する場面",
+    "lines": [
+      {"speaker": "A", "text": "Hi, welcome! Are you ready to order?"},
+      {"speaker": "B", "text": "Not yet. What do you recommend?"},
+      {"speaker": "A", "text": "Today, I recommend the oyakodon."},
+      {"speaker": "B", "text": "What is oyakodon?"},
+      {"speaker": "A", "text": "It is chicken and egg on rice. It is a Japanese rice bowl."},
+      {"speaker": "B", "text": "Why is it called oyakodon?"},
+      {"speaker": "A", "text": "Oyako means parent and child. The chicken is the parent and the egg is the child."},
+      {"speaker": "B", "text": "Oh, that is interesting! Is it good?"},
+      {"speaker": "A", "text": "Yes, it is very popular in Japan. The egg is soft and creamy."},
+      {"speaker": "B", "text": "OK, I will try it! And a green tea, please."},
+      {"speaker": "A", "text": "Good choice! It will be ready in ten minutes."},
+      {"speaker": "B", "text": "Great, thank you!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "welcome", "meaning": "いらっしゃいませ"},
+    {"word": "order", "meaning": "注文する"},
+    {"word": "recommend", "meaning": "おすすめする"},
+    {"word": "called", "meaning": "〜と呼ばれている"},
+    {"word": "interesting", "meaning": "おもしろい"},
+    {"word": "popular", "meaning": "人気のある"},
+    {"word": "choice", "meaning": "選択"},
+    {"word": "ready", "meaning": "準備ができた"},
+    {"word": "minute", "meaning": "分"},
+    {"word": "not yet", "meaning": "まだです"}
+  ],
+  "quiz3": {
+    "question": "お客さんは親子丼のほかに何を注文しましたか？",
+    "options": ["コーヒー", "緑茶", "水"],
+    "correct": 1
+  },
+  "try_it_hint": "「I recommend the ○○. It is ○○.」の形を使って、おすすめの料理を紹介してみましょう。例：I recommend the ramen. It is hot and delicious.",
+  "meta": {"day": 25, "en": "Oyakodon", "ja": "親子丼", "emoji": "\ud83d\udc14"}
+}

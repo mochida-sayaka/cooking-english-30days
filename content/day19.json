@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Yakitori",
+    "intro": "Yakitori is Japanese grilled chicken on sticks. The sauce is sweet and salty.",
+    "ingredients": "chicken thigh, green onion, soy sauce, sugar, mirin, sake, bamboo sticks",
+    "steps": [
+      "**Cut** the chicken into small pieces.",
+      "**Cut** the green onion into short pieces.",
+      "**Put** chicken and green onion on the bamboo sticks.",
+      "**Mix** soy sauce, sugar, mirin, and sake in a small pot and boil.",
+      "**Grill** the sticks on a hot pan for 3 minutes on each side.",
+      "**Brush** the sauce on the chicken and grill one more minute. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "chicken", "meaning": "鶏肉"},
+    {"word": "grill", "meaning": "焼く"},
+    {"word": "stick", "meaning": "串、棒"},
+    {"word": "thigh", "meaning": "もも肉"},
+    {"word": "green onion", "meaning": "長ねぎ"},
+    {"word": "boil", "meaning": "沸騰させる"},
+    {"word": "brush", "meaning": "塗る"},
+    {"word": "side", "meaning": "面、側"},
+    {"word": "short", "meaning": "短い"},
+    {"word": "bamboo", "meaning": "竹"}
+  ],
+  "quiz1": {
+    "question": "レシピによると、串には鶏肉と何をさしますか？",
+    "options": ["にんじん", "長ねぎ", "たまねぎ"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Hilltop Lantern",
+    "location": "Surry Hills, Sydney",
+    "stars": 5,
+    "content": "I went to Hilltop Lantern with my friends on Friday night. It was on a small hill in Surry Hills. We could see the city lights from the terrace. The night was cool and nice. We ordered many yakitori sticks. The chicken was juicy and the sauce was perfect. We also had cold drinks. The lanterns on the terrace were so pretty. They had warm yellow light. We talked and laughed all night. It was a very fun time."
+  },
+  "review_vocab": [
+    {"word": "hill", "meaning": "丘"},
+    {"word": "lantern", "meaning": "ランタン、灯り"},
+    {"word": "city lights", "meaning": "街の灯り"},
+    {"word": "terrace", "meaning": "テラス"},
+    {"word": "cool", "meaning": "涼しい"},
+    {"word": "perfect", "meaning": "完璧な"},
+    {"word": "light", "meaning": "光、灯り"},
+    {"word": "laugh", "meaning": "笑う"},
+    {"word": "fun", "meaning": "楽しい"},
+    {"word": "night", "meaning": "夜"}
+  ],
+  "quiz2": {
+    "question": "レビューによると、テラスから何が見えましたか？",
+    "options": ["街の灯り", "海", "山"],
+    "correct": 0
+  },
+  "australia_tips": {
+    "title": "オーストラリアで焼き鳥を作ろう！",
+    "content": "オーストラリアでは鶏もも肉は「chicken thigh」として売っています。骨なしの「boneless chicken thigh」を選ぶと使いやすいです。オーストラリアの鶏肉はとても大きいので、日本より少ない枚数で十分です。\n\n竹串（bamboo skewers）はColesやWoolworthsのキッチン用品コーナーで買えます。焼く前に水に30分つけておくと、串が焦げにくくなります。\n\nオーストラリアではBBQ（バーベキュー）文化が盛んです。公園には無料で使えるBBQグリルがたくさんあります。友達と公園でBBQをする時に、焼き鳥を作ると「This is amazing!（すごい！）」と言われますよ。\n\nシドニーのSurry Hills（サリーヒルズ）は、おしゃれなバーやレストランが多い人気エリアです。金曜日の夜は特ににぎやかで、テラス席で食事を楽しむ人がたくさんいます。ワーホリ中のお出かけにぴったりです。"
+  },
+  "conversation": {
+    "scene": "オーストラリアの公園でBBQをしている場面で、焼き鳥を紹介する",
+    "lines": [
+      {"speaker": "A", "text": "What are those sticks? They look interesting!"},
+      {"speaker": "B", "text": "These are yakitori. It is Japanese grilled chicken."},
+      {"speaker": "A", "text": "Oh nice! Did you make the sauce too?"},
+      {"speaker": "B", "text": "Yes! I mixed soy sauce, sugar, and mirin."},
+      {"speaker": "A", "text": "It smells amazing. Can I try one?"},
+      {"speaker": "B", "text": "Yes, please! Be careful, it is very hot."},
+      {"speaker": "A", "text": "Mmm! This is so good! The sauce is sweet."},
+      {"speaker": "B", "text": "Thank you! In Japan, we eat yakitori at small shops."},
+      {"speaker": "A", "text": "Really? I want to go to Japan someday."},
+      {"speaker": "B", "text": "You should! Japan has many good food shops."},
+      {"speaker": "A", "text": "Can you make more yakitori? Everyone wants some!"},
+      {"speaker": "B", "text": "Of course! I am happy everyone likes it."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "interesting", "meaning": "面白い、興味深い"},
+    {"word": "grilled", "meaning": "焼いた"},
+    {"word": "amazing", "meaning": "すごい"},
+    {"word": "careful", "meaning": "気をつけて"},
+    {"word": "shop", "meaning": "お店"},
+    {"word": "someday", "meaning": "いつか"},
+    {"word": "should", "meaning": "〜すべきだ"},
+    {"word": "everyone", "meaning": "みんな"},
+    {"word": "more", "meaning": "もっと"},
+    {"word": "happy", "meaning": "うれしい"}
+  ],
+  "quiz3": {
+    "question": "会話で、Aさんはいつか何をしたいと言っていますか？",
+    "options": ["オーストラリアに行きたい", "日本に行きたい", "料理を習いたい"],
+    "correct": 1
+  },
+  "try_it_hint": "「These are ___. It is Japanese ___. Can I try one?」のように、BBQで日本料理を紹介してみましょう！",
+  "meta": {"day": 19, "en": "Yakitori", "ja": "焼き鳥", "emoji": "🍢"}
+}

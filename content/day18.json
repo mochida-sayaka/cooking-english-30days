@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Tonkatsu",
+    "intro": "Tonkatsu is a Japanese fried pork cutlet. It is crispy outside and juicy inside.",
+    "ingredients": "pork loin, salt, pepper, flour, egg, panko breadcrumbs, cooking oil, cabbage, tonkatsu sauce",
+    "steps": [
+      "**Hit** the pork lightly with your hand to make it flat.",
+      "**Put** salt and pepper on both sides of the pork.",
+      "**Cover** the pork with flour, then egg, then panko.",
+      "**Heat** oil in a deep pan to 170 degrees.",
+      "**Fry** the pork for 4 minutes on each side until golden.",
+      "**Cut** the tonkatsu into pieces and serve with cabbage. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "pork", "meaning": "豚肉"},
+    {"word": "fried", "meaning": "揚げた"},
+    {"word": "crispy", "meaning": "サクサクの"},
+    {"word": "juicy", "meaning": "ジューシーな"},
+    {"word": "flour", "meaning": "小麦粉"},
+    {"word": "egg", "meaning": "卵"},
+    {"word": "breadcrumbs", "meaning": "パン粉"},
+    {"word": "fry", "meaning": "揚げる"},
+    {"word": "golden", "meaning": "きつね色の"},
+    {"word": "serve", "meaning": "盛り付ける"}
+  ],
+  "quiz1": {
+    "question": "パン粉をつける前に、豚肉に何をつけますか？",
+    "options": ["塩と砂糖", "小麦粉と卵", "ソースとキャベツ"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Mimosa Garden Dining",
+    "location": "Newtown, Sydney",
+    "stars": 5,
+    "content": "I found Mimosa Garden Dining on a quiet street in Newtown. There was a lovely garden patio with yellow mimosa flowers. I sat outside under a big tree. The air was fresh and nice. I ordered the tonkatsu set. The pork was very crispy and hot. The cabbage was fresh and green. The sauce was sweet and rich. The staff were friendly and kind. I loved this place very much."
+  },
+  "review_vocab": [
+    {"word": "garden", "meaning": "庭"},
+    {"word": "patio", "meaning": "テラス、中庭"},
+    {"word": "outside", "meaning": "外で"},
+    {"word": "air", "meaning": "空気"},
+    {"word": "fresh", "meaning": "新鮮な"},
+    {"word": "rich", "meaning": "濃厚な"},
+    {"word": "staff", "meaning": "スタッフ、店員"},
+    {"word": "friendly", "meaning": "フレンドリーな"},
+    {"word": "kind", "meaning": "親切な"},
+    {"word": "street", "meaning": "通り"}
+  ],
+  "quiz2": {
+    "question": "レビューによると、レストランの庭にはどんな花がありましたか？",
+    "options": ["ジャスミン", "バラ", "ミモザ"],
+    "correct": 2
+  },
+  "australia_tips": {
+    "title": "オーストラリアでとんかつを作ろう！",
+    "content": "オーストラリアのスーパーでは、豚ロース肉は「pork loin」として売っています。パン粉（panko）は「Japanese breadcrumbs」としてアジア食材コーナーやアジア食材店で買えます。最近はオーストラリアでもpankoが人気で、普通のスーパーにも置いてあることが多いです。\n\nとんかつソースは、アジア食材店で「Bulldog」や「Otafuku」のソースが手に入ります。もし見つからない場合は、ウスターソースとケチャップを混ぜると似た味になりますよ。\n\nオーストラリアでは揚げ物をする時、油の処理に注意しましょう。使った油はそのまま排水溝に流してはいけません。冷ました後、瓶に入れてゴミとして出しましょう。シェアハウスのルールも確認してくださいね。\n\nシドニーのNewtown（ニュータウン）は、おしゃれなカフェやレストランが多いエリアです。アートやヴィンテージショップもたくさんあり、お散歩にもぴったりです。"
+  },
+  "conversation": {
+    "scene": "オーストラリアのレストランで、とんかつを注文する場面",
+    "lines": [
+      {"speaker": "A", "text": "Hello! Welcome to our restaurant. Here is the menu."},
+      {"speaker": "B", "text": "Thank you. What do you recommend?"},
+      {"speaker": "A", "text": "Our tonkatsu is very popular today."},
+      {"speaker": "B", "text": "Oh, I love tonkatsu! What comes with it?"},
+      {"speaker": "A", "text": "It comes with rice, cabbage, and miso soup."},
+      {"speaker": "B", "text": "That sounds great. I will have the tonkatsu set, please."},
+      {"speaker": "A", "text": "Sure. Would you like something to drink?"},
+      {"speaker": "B", "text": "Yes, can I have green tea, please?"},
+      {"speaker": "A", "text": "Of course. Hot or cold?"},
+      {"speaker": "B", "text": "Hot, please."},
+      {"speaker": "A", "text": "OK. Your food will be ready in 10 minutes."},
+      {"speaker": "B", "text": "Thank you very much!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "welcome", "meaning": "ようこそ"},
+    {"word": "menu", "meaning": "メニュー"},
+    {"word": "recommend", "meaning": "おすすめする"},
+    {"word": "popular", "meaning": "人気のある"},
+    {"word": "come with", "meaning": "〜がついてくる"},
+    {"word": "miso soup", "meaning": "味噌汁"},
+    {"word": "drink", "meaning": "飲み物、飲む"},
+    {"word": "green tea", "meaning": "緑茶"},
+    {"word": "hot", "meaning": "熱い、暑い"},
+    {"word": "cold", "meaning": "冷たい、寒い"}
+  ],
+  "quiz3": {
+    "question": "会話で、Bさんは飲み物に何を頼みましたか？",
+    "options": ["冷たい緑茶", "熱い緑茶", "コーヒー"],
+    "correct": 1
+  },
+  "try_it_hint": "「I will have the ___, please. Can I have ___, please?」のように、レストランで注文する練習をしてみましょう！",
+  "meta": {"day": 18, "en": "Tonkatsu", "ja": "とんかつ", "emoji": "🐷"}
+}

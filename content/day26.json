@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Katsudon",
+    "intro": "Katsudon is a Japanese rice bowl with a fried pork cutlet and egg. It is a very popular comfort food in Japan.",
+    "ingredients": "pork cutlet (tonkatsu), egg, onion, soy sauce, mirin, sugar, dashi stock, rice, green onion",
+    "steps": [
+      "**Cook** the rice and put it in a bowl.",
+      "**Cut** the onion into thin pieces.",
+      "**Mix** the soy sauce, mirin, sugar, and dashi stock in a small pan.",
+      "**Add** the onion to the pan and cook for two minutes.",
+      "**Put** the pork cutlet on top of the onion and pour the beaten egg over it.",
+      "**Cover** the pan and cook for one minute, then put everything on the rice. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "cutlet", "meaning": "カツ（揚げた肉）"},
+    {"word": "fried", "meaning": "揚げた"},
+    {"word": "comfort food", "meaning": "ほっとする食べ物"},
+    {"word": "thin", "meaning": "薄い"},
+    {"word": "stock", "meaning": "だし・スープの素"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "beaten egg", "meaning": "溶き卵"},
+    {"word": "on top of", "meaning": "〜の上に"},
+    {"word": "bowl", "meaning": "丼・ボウル"},
+    {"word": "cover", "meaning": "ふたをする"}
+  ],
+  "quiz1": {
+    "question": "カツ丼のレシピで、卵はどこにかけますか？",
+    "options": ["ごはんの上に", "カツの上に", "玉ねぎの下に"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Harbour View Donburi House",
+    "location": "Barangaroo, Sydney",
+    "stars": 5,
+    "content": "I went to Harbour View Donburi House last Saturday. It was in Barangaroo, near the water. I could see the Harbour Bridge from my seat. The restaurant was small and cozy. I ordered katsudon and it was so good. The pork was crispy and the egg was soft. There were pretty yellow flowers on each table. I felt warm and happy."
+  },
+  "review_vocab": [
+    {"word": "harbour", "meaning": "港"},
+    {"word": "bridge", "meaning": "橋"},
+    {"word": "seat", "meaning": "席"},
+    {"word": "ordered", "meaning": "注文した"},
+    {"word": "crispy", "meaning": "サクサクした"},
+    {"word": "soft", "meaning": "やわらかい"},
+    {"word": "pretty", "meaning": "きれいな"},
+    {"word": "warm", "meaning": "あたたかい"},
+    {"word": "felt", "meaning": "感じた（feelの過去形）"},
+    {"word": "near", "meaning": "〜の近くに"}
+  ],
+  "quiz2": {
+    "question": "レビューのレストランから何が見えましたか？",
+    "options": ["山", "ハーバーブリッジ", "ビーチ"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでカツ丼を作るなら",
+    "content": "カツ丼に使う豚肉（pork loin）は、ColesやWoolworthsで簡単に買えます。パン粉（breadcrumbs）も普通のスーパーにありますが、日本式の粗いパン粉が欲しい場合はアジア食材店で「panko breadcrumbs」を探しましょう。最近はオーストラリアでも「panko」は人気です。\n\nバランガルー（Barangaroo）はシドニーの再開発エリアで、おしゃれなレストランやカフェがたくさんあります。ハーバーブリッジやオペラハウスが見える場所も多く、景色を楽しみながら食事ができます。\n\nワーホリ中に日本食レストランで働く人も多いです。カツ丼は人気メニューなので、「katsudon」「pork cutlet bowl」という英語を覚えておくと便利です。お客さんに料理を説明するときに使えますよ。\n\nカツ丼は日本では「勝つ」にかけて、試験やスポーツの前に食べる縁起物でもあります。ワーホリの面接や新しい仕事の前に、自分で作って食べるのもいいですね！"
+  },
+  "conversation": {
+    "scene": "日本食レストランでアルバイト中、お客さんにカツ丼を説明する場面",
+    "lines": [
+      {"speaker": "A", "text": "Excuse me, what is katsudon?"},
+      {"speaker": "B", "text": "It is a rice bowl with a fried pork cutlet and egg on top."},
+      {"speaker": "A", "text": "That sounds good! Is it big?"},
+      {"speaker": "B", "text": "Yes, it is quite big. Most people feel full after eating it."},
+      {"speaker": "A", "text": "Is the pork crispy?"},
+      {"speaker": "B", "text": "Yes, it is very crispy. We cook it fresh every time."},
+      {"speaker": "A", "text": "Great! I will have one katsudon, please."},
+      {"speaker": "B", "text": "Sure. Would you like a drink too?"},
+      {"speaker": "A", "text": "Yes, can I have green tea?"},
+      {"speaker": "B", "text": "Of course. One katsudon and one green tea."},
+      {"speaker": "A", "text": "How long will it take?"},
+      {"speaker": "B", "text": "About ten minutes. Please wait here."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "excuse me", "meaning": "すみません"},
+    {"word": "sounds good", "meaning": "おいしそう・よさそう"},
+    {"word": "quite", "meaning": "かなり"},
+    {"word": "full", "meaning": "お腹いっぱい"},
+    {"word": "fresh", "meaning": "できたての・新鮮な"},
+    {"word": "every time", "meaning": "毎回"},
+    {"word": "would you like", "meaning": "〜はいかがですか"},
+    {"word": "drink", "meaning": "飲み物"},
+    {"word": "how long", "meaning": "どのくらい（時間）"},
+    {"word": "wait", "meaning": "待つ"}
+  ],
+  "quiz3": {
+    "question": "会話の中で、お客さんは飲み物に何を頼みましたか？",
+    "options": ["コーヒー", "水", "緑茶"],
+    "correct": 2
+  },
+  "try_it_hint": "「〇〇はどんな料理ですか？」と聞かれたときの答え方を練習しましょう。例：It is a rice bowl with chicken and egg on top.",
+  "meta": {"day": 26, "en": "Katsudon", "ja": "カツ丼", "emoji": "\ud83c\udf71"}
+}

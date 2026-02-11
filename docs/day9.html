@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 9: Onigiri 🍙</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 50%, #e8b4cb 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    
+    .card-number {
+      background: #e8a4b8;
+      color: white;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 14px;
+    }
+    
+    .card-title {
+      font-size: 20px;
+      font-weight: bold;
+      color: #333;
+    }
+    
+    .card-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    h1 {
+      color: white;
+      text-align: center;
+      margin-bottom: 8px;
+      font-size: 28px;
+    }
+    
+    .day-badge {
+      text-align: center;
+      color: rgba(255,255,255,0.9);
+      margin-bottom: 24px;
+      font-size: 14px;
+    }
+    
+    .english-text {
+      background: #f8f9fa;
+      border-left: 4px solid #e8a4b8;
+      padding: 16px;
+      margin: 12px 0;
+      line-height: 1.8;
+      font-size: 16px;
+    }
+    
+    .english-text p {
+      margin-bottom: 12px;
+    }
+    
+    .english-text p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .btn-row {
+      display: flex;
+      gap: 8px;
+      margin-top: 12px;
+      flex-wrap: wrap;
+    }
+    
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    
+    .btn-primary {
+      background: #e8a4b8;
+      color: white;
+    }
+    
+    .btn-primary:hover {
+      background: #d4899d;
+    }
+    
+    .btn-secondary {
+      background: #e9ecef;
+      color: #495057;
+    }
+    
+    .btn-secondary:hover {
+      background: #dee2e6;
+    }
+    
+    .btn-success {
+      background: #28a745;
+      color: white;
+    }
+    
+    .vocab-section {
+      display: none;
+      margin-top: 16px;
+      padding: 16px;
+      background: #fff3cd;
+      border-radius: 8px;
+    }
+    
+    .vocab-section.show {
+      display: block;
+    }
+    
+    .vocab-section h4 {
+      margin-bottom: 12px;
+      color: #856404;
+      font-size: 14px;
+    }
+    
+    .vocab-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    
+    .vocab-item:last-child {
+      border-bottom: none;
+    }
+    
+    .vocab-item input[type="checkbox"] {
+      margin-top: 4px;
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+    
+    .vocab-word {
+      font-weight: bold;
+      color: #e8a4b8;
+      min-width: 100px;
+    }
+    
+    .vocab-meaning {
+      color: #666;
+    }
+    
+    .quiz-section {
+      background: #e8f4fd;
+      padding: 16px;
+      border-radius: 8px;
+      margin: 12px 0;
+    }
+    
+    .quiz-question {
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #0066cc;
+    }
+    
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .quiz-option {
+      padding: 12px;
+      background: white;
+      border: 2px solid #dee2e6;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    
+    .quiz-option:hover {
+      border-color: #e8a4b8;
+    }
+    
+    .quiz-option.selected {
+      border-color: #e8a4b8;
+      background: #f0f4ff;
+    }
+    
+    .quiz-option.correct {
+      border-color: #28a745;
+      background: #d4edda;
+    }
+    
+    .quiz-option.incorrect {
+      border-color: #dc3545;
+      background: #f8d7da;
+    }
+    
+    .quiz-result {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 8px;
+      display: none;
+    }
+    
+    .quiz-result.show {
+      display: block;
+    }
+    
+    .quiz-result.correct {
+      background: #d4edda;
+      color: #155724;
+    }
+    
+    .quiz-result.incorrect {
+      background: #f8d7da;
+      color: #721c24;
+    }
+    
+    .tips-section {
+      background: #fff;
+      padding: 16px;
+      border-radius: 8px;
+      border: 2px dashed #ffc107;
+      line-height: 1.8;
+    }
+    
+    .tips-section h4 {
+      color: #856404;
+      margin-bottom: 8px;
+    }
+    
+    .tips-section p {
+      line-height: 1.8;
+      color: #333;
+      margin-bottom: 12px;
+    }
+    
+    .diary-section textarea {
+      width: 100%;
+      min-height: 120px;
+      padding: 12px;
+      border: 2px solid #dee2e6;
+      border-radius: 8px;
+      font-size: 16px;
+      line-height: 1.6;
+      resize: vertical;
+      font-family: inherit;
+    }
+    
+    .diary-section textarea:focus {
+      outline: none;
+      border-color: #e8a4b8;
+    }
+    
+    .diary-hint {
+      background: #f8f9fa;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .summary-section {
+      background: #1a1a2e;
+      color: #eee;
+      padding: 16px;
+      border-radius: 8px;
+      font-family: monospace;
+      font-size: 13px;
+      white-space: pre-wrap;
+      line-height: 1.6;
+      max-height: 400px;
+      overflow-y: auto;
+    }
+    
+    .progress-bar {
+      background: rgba(255,255,255,0.3);
+      border-radius: 10px;
+      height: 8px;
+      margin-bottom: 24px;
+      overflow: hidden;
+    }
+    
+    .progress-fill {
+      background: white;
+      height: 100%;
+      border-radius: 10px;
+      transition: width 0.3s;
+    }
+    
+    .copy-toast {
+      position: fixed;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #333;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      opacity: 0;
+      transition: opacity 0.3s;
+      z-index: 1000;
+    }
+    
+    .copy-toast.show {
+      opacity: 1;
+    }
+    
+    .conversation-box {
+      background: #f8f9fa;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+    }
+    
+    .conversation-line {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+    
+    .conversation-line:last-child {
+      margin-bottom: 0;
+    }
+    
+    .speaker {
+      font-weight: bold;
+      color: #e8a4b8;
+      min-width: 24px;
+    }
+    
+    .speaker.b {
+      color: #e91e63;
+    }
+    
+    .dialogue {
+      line-height: 1.6;
+    }
+    
+    .section-complete {
+      text-align: center;
+      padding: 20px;
+      color: #28a745;
+    }
+    
+    .footer-nav {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+    }
+    
+    .footer-nav .btn {
+      padding: 14px 24px;
+    }
+    
+    .nav-link {
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🍙 Day 9: Onigiri</h1>
+    <p class="day-badge">30日間クッキング英語 — 9日目</p>
+    
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+    </div>
+
+    <!-- Section 1: Recipe -->
+    <div class="card" id="section1">
+      <div class="card-header">
+        <div class="card-number">1</div>
+        <div>
+          <div class="card-title">Recipe</div>
+          <div class="card-subtitle">おにぎりのレシピを読んでみよう</div>
+        </div>
+      </div>
+      
+      <div class="english-text" id="recipeText">
+        <p><strong>How to Make Onigiri</strong></p>
+        <p>Onigiri is a Japanese rice ball. It is easy to make and great for lunch.</p>
+        <p><strong>Ingredients:</strong><br>cooked rice, salt, nori, tuna, mayonnaise, umeboshi, salmon</p>
+        <p><strong>Steps:</strong></p>
+        <p>1. <strong>Mix</strong> tuna and mayonnaise in a small bowl.</p>
+        <p>2. <strong>Wet</strong> your hands with water and put some salt on them.</p>
+        <p>3. <strong>Put</strong> warm rice on your hand and make a small hole in the middle.</p>
+        <p>4. <strong>Put</strong> the tuna, umeboshi, or salmon in the hole.</p>
+        <p>5. <strong>Close</strong> the rice and press it into a triangle shape with your hands.</p>
+        <p>6. <strong>Wrap</strong> the onigiri with nori and put it on a plate. <strong>Enjoy!</strong></p>
+        
+      </div>
+      
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="copyText('recipeText')">📋 コピー</button>
+        <button class="btn btn-secondary" onclick="openNaturalReader()">🔊 Natural Reader</button>
+        <button class="btn btn-primary" onclick="toggleVocab('vocab1')">📚 単語リストを見る</button>
+      </div>
+      
+      <div class="vocab-section" id="vocab1">
+        <h4>💡 わからなかった単語にチェック ✓</h4>
+                <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="rice ball">
+          <span class="vocab-word">rice ball</span>
+          <span class="vocab-meaning">おにぎり</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="wet">
+          <span class="vocab-word">wet</span>
+          <span class="vocab-meaning">ぬらす</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="hole">
+          <span class="vocab-word">hole</span>
+          <span class="vocab-meaning">穴</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="middle">
+          <span class="vocab-word">middle</span>
+          <span class="vocab-meaning">真ん中</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="press">
+          <span class="vocab-word">press</span>
+          <span class="vocab-meaning">押す・握る</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="triangle">
+          <span class="vocab-word">triangle</span>
+          <span class="vocab-meaning">三角形</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="shape">
+          <span class="vocab-word">shape</span>
+          <span class="vocab-meaning">形</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="wrap">
+          <span class="vocab-word">wrap</span>
+          <span class="vocab-meaning">包む・巻く</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="tuna">
+          <span class="vocab-word">tuna</span>
+          <span class="vocab-meaning">ツナ</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="salmon">
+          <span class="vocab-word">salmon</span>
+          <span class="vocab-meaning">サーモン・鮭</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 2: Quiz 1 -->
+    <div class="card" id="section2">
+      <div class="card-header">
+        <div class="card-number">2</div>
+        <div>
+          <div class="card-title">Quiz 1</div>
+          <div class="card-subtitle">レシピの内容チェック</div>
+        </div>
+      </div>
+      
+      <div class="quiz-section">
+        <div class="quiz-question">Q: おにぎりを握る前に、手に何をつけますか？</div>
+        <div class="quiz-options" id="quiz1">
+                    <div class="quiz-option" onclick="selectQuiz(this, 'quiz1', 0)">砂糖</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz1', 1)">油</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz1', 2)">水と塩</div>
+
+        </div>
+        <div class="quiz-result" id="quiz1-result"></div>
+      </div>
+    </div>
+
+    <!-- Section 3: Review -->
+    <div class="card" id="section3">
+      <div class="card-header">
+        <div class="card-number">3</div>
+        <div>
+          <div class="card-title">Review</div>
+          <div class="card-subtitle">オーストラリアのレストランレビュー</div>
+        </div>
+      </div>
+      
+      <div class="english-text" id="reviewText">
+        <p><strong>🏠 Bondi Morning Café — Bondi, Sydney, Australia</strong></p>
+        <p>⭐⭐⭐⭐⭐</p>
+        <p>I visited Bondi Morning Café last Saturday. It was right next to Bondi Beach. I sat outside and watched the beautiful ocean. The waves were blue and white. I had salmon onigiri and green tea. The onigiri was fresh and delicious. The café was small and cozy with light pink walls. There were pretty flowers on every table. It was a wonderful morning.</p>
+      </div>
+      
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="copyText('reviewText')">📋 コピー</button>
+        <button class="btn btn-secondary" onclick="openNaturalReader()">🔊 Natural Reader</button>
+        <button class="btn btn-primary" onclick="toggleVocab('vocab2')">📚 単語リストを見る</button>
+      </div>
+      
+      <div class="vocab-section" id="vocab2">
+        <h4>💡 わからなかった単語にチェック ✓</h4>
+                <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="beach">
+          <span class="vocab-word">beach</span>
+          <span class="vocab-meaning">ビーチ・海辺</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="ocean">
+          <span class="vocab-word">ocean</span>
+          <span class="vocab-meaning">海</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="wave">
+          <span class="vocab-word">wave</span>
+          <span class="vocab-meaning">波</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="watched">
+          <span class="vocab-word">watched</span>
+          <span class="vocab-meaning">眺めた</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="fresh">
+          <span class="vocab-word">fresh</span>
+          <span class="vocab-meaning">新鮮な</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="right next to">
+          <span class="vocab-word">right next to</span>
+          <span class="vocab-meaning">すぐ隣に</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="wall">
+          <span class="vocab-word">wall</span>
+          <span class="vocab-meaning">壁</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="pretty">
+          <span class="vocab-word">pretty</span>
+          <span class="vocab-meaning">かわいい・きれいな</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="wonderful">
+          <span class="vocab-word">wonderful</span>
+          <span class="vocab-meaning">すばらしい</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="every">
+          <span class="vocab-word">every</span>
+          <span class="vocab-meaning">すべての</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 4: Quiz 2 -->
+    <div class="card" id="section4">
+      <div class="card-header">
+        <div class="card-number">4</div>
+        <div>
+          <div class="card-title">Quiz 2</div>
+          <div class="card-subtitle">レビューの内容チェック</div>
+        </div>
+      </div>
+      
+      <div class="quiz-section">
+        <div class="quiz-question">Q: カフェの壁は何色でしたか？</div>
+        <div class="quiz-options" id="quiz2">
+                    <div class="quiz-option" onclick="selectQuiz(this, 'quiz2', 0)">黄色</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz2', 1)">薄いピンク</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz2', 2)">白</div>
+
+        </div>
+        <div class="quiz-result" id="quiz2-result"></div>
+      </div>
+    </div>
+
+    <!-- Section 5: Australia Tips -->
+    <div class="card" id="section5">
+      <div class="card-header">
+        <div class="card-number">5</div>
+        <div>
+          <div class="card-title">🦘 Australia Tips</div>
+          <div class="card-subtitle">オーストラリアでおにぎりを作ろう！🍙</div>
+        </div>
+      </div>
+      
+      <div class="tips-section">
+        <p>オーストラリアのスーパーでは、日本のお米に近い短粒米（Short Grain Rice）が手に入ります。アジア食材店では「Sushi Rice」として売られていることも多いです。のりは「Nori Sheets」として、ツナ缶は「Tuna」として普通のスーパーで買えます。</p>
+        <p>シドニーのボンダイビーチ（Bondi Beach）は、オーストラリアで最も有名なビーチの一つです。青い海と白い砂浜が広がり、サーファーや観光客でにぎわっています。ビーチ沿いにはおしゃれなカフェがたくさんあり、海を見ながらコーヒーを楽しめます。</p>
+        <p>おにぎりはピクニックやビーチランチにぴったりです。ボンダイからクージー（Coogee）までの海岸沿いの遊歩道「Coastal Walk」は、絶景スポットがいっぱいで、途中でおにぎりを食べるのもおすすめです。春には遊歩道沿いに色とりどりの花が咲き、ジャスミンの香りがする場所もあります。</p>
+        <p>ワーホリ中のランチにおにぎりを持っていくと、オーストラリア人の同僚に「What is that?（それ何？）」と聞かれることがよくあります。日本の食文化を紹介するいいチャンスになりますよ。「It is a rice ball. It has salmon inside.（おにぎりだよ。中にサーモンが入っているよ）」と簡単に説明できれば大丈夫です。</p>
+        
+      </div>
+    </div>
+
+    <!-- Section 6: Conversation -->
+    <div class="card" id="section6">
+      <div class="card-header">
+        <div class="card-number">6</div>
+        <div>
+          <div class="card-title">Conversation</div>
+          <div class="card-subtitle">ビーチでピクニック中、オーストラリア人の友達におにぎりを紹介する場面</div>
+        </div>
+      </div>
+      
+      <div class="conversation-box" id="conversationText">
+        <p style="color: #666; font-size: 14px; margin-bottom: 12px;">🏠 ビーチでピクニック中、オーストラリア人の友達におにぎりを紹介する場面</p>
+                <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">What is that? It looks interesting!</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">This is onigiri. It is a Japanese rice ball.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">What is inside?</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">This one has tuna. That one has salmon.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">Can I try the salmon one?</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">Sure! Here you go.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">Mmm, this is really good!</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">Thank you! It is easy to make.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">Can you teach me how to make it?</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">Of course! You need rice, salt, nori, and a filling.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">What is nori?</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">It is the black sheet around the rice. It is seaweed.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker">A:</span>
+          <span class="dialogue">Oh, I see! I want to try making it at home.</span>
+        </div>
+        <div class="conversation-line">
+          <span class="speaker b">B:</span>
+          <span class="dialogue">Let's make onigiri together this weekend!</span>
+        </div>
+
+      </div>
+      
+      <div class="btn-row">
+        <button class="btn btn-secondary" onclick="copyConversation()">📋 コピー</button>
+        <button class="btn btn-secondary" onclick="openNaturalReader()">🔊 Natural Reader</button>
+        <button class="btn btn-primary" onclick="toggleVocab('vocab3')">📚 単語リストを見る</button>
+      </div>
+      
+      <div class="vocab-section" id="vocab3">
+        <h4>💡 わからなかった単語にチェック ✓</h4>
+                <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="interesting">
+          <span class="vocab-word">interesting</span>
+          <span class="vocab-meaning">おもしろい・興味深い</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="inside">
+          <span class="vocab-word">inside</span>
+          <span class="vocab-meaning">中に</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="this one">
+          <span class="vocab-word">this one</span>
+          <span class="vocab-meaning">こっちの</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="here you go">
+          <span class="vocab-word">here you go</span>
+          <span class="vocab-meaning">はいどうぞ</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="really">
+          <span class="vocab-word">really</span>
+          <span class="vocab-meaning">本当に</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="easy">
+          <span class="vocab-word">easy</span>
+          <span class="vocab-meaning">簡単な</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="filling">
+          <span class="vocab-word">filling</span>
+          <span class="vocab-meaning">具材・中身</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="sheet">
+          <span class="vocab-word">sheet</span>
+          <span class="vocab-meaning">シート・一枚</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="seaweed">
+          <span class="vocab-word">seaweed</span>
+          <span class="vocab-meaning">海藻</span>
+        </div>
+        <div class="vocab-item">
+          <input type="checkbox" class="vocab-check" data-word="weekend">
+          <span class="vocab-word">weekend</span>
+          <span class="vocab-meaning">週末</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 7: Quiz 3 -->
+    <div class="card" id="section7">
+      <div class="card-header">
+        <div class="card-number">7</div>
+        <div>
+          <div class="card-title">Quiz 3</div>
+          <div class="card-subtitle">会話の内容チェック</div>
+        </div>
+      </div>
+      
+      <div class="quiz-section">
+        <div class="quiz-question">Q: Aさんはどの味のおにぎりを食べましたか？</div>
+        <div class="quiz-options" id="quiz3">
+                    <div class="quiz-option" onclick="selectQuiz(this, 'quiz3', 0)">ツナ</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz3', 1)">サーモン</div>
+          <div class="quiz-option" onclick="selectQuiz(this, 'quiz3', 2)">梅干し</div>
+
+        </div>
+        <div class="quiz-result" id="quiz3-result"></div>
+      </div>
+    </div>
+
+    <!-- Section 8: Try It! -->
+    <div class="card" id="section8">
+      <div class="card-header">
+        <div class="card-number">8</div>
+        <div>
+          <div class="card-title">✏️ Try It!</div>
+          <div class="card-subtitle">今日のことを3行で書いてみよう</div>
+        </div>
+      </div>
+      
+      <div class="diary-section">
+        <div class="diary-hint">
+          <p>💡 今日の会話や文をマネしてOK！わからない英語は日本語のままで大丈夫。</p>
+          <p style="margin-top: 8px;">例：</p>
+          <p style="font-style: italic; color: #e8a4b8;">「This is ○○. It is ○○.」の形を使って、日本の食べ物を紹介してみましょう。例：This is mochi. It is a Japanese rice cake.</p>
+        </div>
+        
+        <textarea id="diaryText" placeholder="I'm making...&#10;&#10;"></textarea>
+      </div>
+    </div>
+
+    <!-- Section 9: Summary -->
+    <div class="card" id="section9">
+      <div class="card-header">
+        <div class="card-number">✓</div>
+        <div>
+          <div class="card-title">📊 学習サマリー</div>
+          <div class="card-subtitle">ChatGPTにコピペして解説をもらおう</div>
+        </div>
+      </div>
+      
+      <button class="btn btn-primary" onclick="generateSummary()" style="margin-bottom: 16px; width: 100%; justify-content: center;">
+        📋 サマリーを生成する
+      </button>
+      
+      <div class="summary-section" id="summaryOutput">
+ここにサマリーが表示されます。
+上のボタンを押してね！
+      </div>
+      
+      <div class="btn-row" style="margin-top: 12px;">
+        <button class="btn btn-success" onclick="copySummary()">📋 サマリーをコピー</button>
+        <button class="btn btn-secondary" onclick="openChatGPT()">🤖 ChatGPTを開く</button>
+      </div>
+    </div>
+
+    <!-- Footer Navigation -->
+    <div class="footer-nav">
+      <a href="day8.html" class="nav-link"><button class="btn btn-secondary">← Day 8</button></a>
+      <a href="day10.html" class="nav-link"><button class="btn btn-primary">Day 10 →</button></a>
+    </div>
+  </div>
+
+  <div class="copy-toast" id="copyToast">コピーしました！</div>
+
+  <script>
+    // Quiz state
+    const quizResults = {
+      quiz1: null,
+      quiz2: null,
+      quiz3: null
+    };
+    
+    const quizCorrect = {
+      quiz1: 2,
+      quiz2: 1,
+      quiz3: 1
+    };
+
+    // Toggle vocabulary section
+    function toggleVocab(id) {
+      const section = document.getElementById(id);
+      section.classList.toggle('show');
+      updateProgress();
+    }
+
+    // Copy text to clipboard
+    function copyText(elementId) {
+      const element = document.getElementById(elementId);
+      const text = element.innerText;
+      navigator.clipboard.writeText(text).then(() => {
+        showToast();
+      });
+    }
+
+    // Copy conversation
+    function copyConversation() {
+      const lines = document.querySelectorAll('#conversationText .conversation-line');
+      let text = '';
+      lines.forEach(line => {
+        const speaker = line.querySelector('.speaker').innerText;
+        const dialogue = line.querySelector('.dialogue').innerText;
+        text += speaker + ' ' + dialogue + '\n';
+      });
+      navigator.clipboard.writeText(text).then(() => {
+        showToast();
+      });
+    }
+
+    // Open Natural Reader
+    function openNaturalReader() {
+      window.open('https://www.naturalreaders.com/online/', '_blank');
+    }
+
+    // Open ChatGPT
+    function openChatGPT() {
+      window.open('https://chat.openai.com/', '_blank');
+    }
+
+    // Show copy toast
+    function showToast() {
+      const toast = document.getElementById('copyToast');
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 2000);
+    }
+
+    // Quiz selection
+    function selectQuiz(element, quizId, optionIndex) {
+      const options = document.querySelectorAll(`#${quizId} .quiz-option`);
+      const resultDiv = document.getElementById(`${quizId}-result`);
+      const isCorrect = optionIndex === quizCorrect[quizId];
+      
+      // Remove previous selections
+      options.forEach(opt => {
+        opt.classList.remove('selected', 'correct', 'incorrect');
+      });
+      
+      // Add selection
+      element.classList.add('selected');
+      
+      if (isCorrect) {
+        element.classList.add('correct');
+        resultDiv.textContent = '⭕ 正解！';
+        resultDiv.className = 'quiz-result show correct';
+        quizResults[quizId] = true;
+      } else {
+        element.classList.add('incorrect');
+        resultDiv.textContent = '❌ 残念！もう一度読んでみよう。';
+        resultDiv.className = 'quiz-result show incorrect';
+        quizResults[quizId] = false;
+      }
+      
+      updateProgress();
+    }
+
+    // Update progress bar
+    function updateProgress() {
+      let completed = 0;
+      
+      // Check vocab sections opened
+      if (document.getElementById('vocab1').classList.contains('show')) completed++;
+      if (document.getElementById('vocab2').classList.contains('show')) completed++;
+      if (document.getElementById('vocab3').classList.contains('show')) completed++;
+      
+      // Check quizzes answered
+      if (quizResults.quiz1 !== null) completed++;
+      if (quizResults.quiz2 !== null) completed++;
+      if (quizResults.quiz3 !== null) completed++;
+      
+      // Check diary written
+      if (document.getElementById('diaryText').value.trim().length > 10) completed++;
+      
+      const percent = Math.min(100, (completed / 7) * 100);
+      document.getElementById('progressFill').style.width = percent + '%';
+    }
+
+    // Generate summary
+    function generateSummary() {
+      // Get checked words
+      const checkedWords = [];
+      document.querySelectorAll('.vocab-check:checked').forEach(checkbox => {
+        const item = checkbox.closest('.vocab-item');
+        const word = item.querySelector('.vocab-word').innerText;
+        const meaning = item.querySelector('.vocab-meaning').innerText;
+        checkedWords.push(`- ${word}（${meaning}）`);
+      });
+      
+      // Get quiz results
+      const quizSummary = [];
+      if (quizResults.quiz1 !== null) {
+        quizSummary.push(`Quiz 1: ${quizResults.quiz1 ? '⭕ 正解' : '❌ 不正解'}`);
+      }
+      if (quizResults.quiz2 !== null) {
+        quizSummary.push(`Quiz 2: ${quizResults.quiz2 ? '⭕ 正解' : '❌ 不正解'}`);
+      }
+      if (quizResults.quiz3 !== null) {
+        quizSummary.push(`Quiz 3: ${quizResults.quiz3 ? '⭕ 正解' : '❌ 不正解'}`);
+      }
+      
+      // Get diary text
+      const diaryText = document.getElementById('diaryText').value.trim() || '（まだ書いてないよ）';
+      
+      // Generate summary
+      const summary = `【Day 9: Onigiri 🍙 学習結果】
+
+■ わからなかった単語（${checkedWords.length}個）
+${checkedWords.length > 0 ? checkedWords.join('\n') : '（なし）'}
+
+■ クイズ結果
+${quizSummary.length > 0 ? quizSummary.join('\n') : '（まだ解いてないよ）'}
+
+■ Try It! で書いた文
+${diaryText}
+
+---
+このまま ChatGPT に貼って「解説して」「添削して」と言ってね！
+特に Try It! で書いた英文の添削をお願いすると良いよ。`;
+
+      document.getElementById('summaryOutput').textContent = summary;
+      updateProgress();
+    }
+
+    // Copy summary
+    function copySummary() {
+      const summary = document.getElementById('summaryOutput').textContent;
+      navigator.clipboard.writeText(summary).then(() => {
+        showToast();
+      });
+    }
+
+    // Listen for diary input
+    document.getElementById('diaryText').addEventListener('input', updateProgress);
+  </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Udon",
+    "intro": "Udon are thick Japanese noodles. They are soft and chewy in hot soup.",
+    "ingredients": "udon noodles, dashi stock, soy sauce, mirin, salt, green onion, kamaboko (fish cake), egg",
+    "steps": [
+      "**Boil** water in a big pot and cook the udon noodles.",
+      "**Make** the soup by mixing dashi stock, soy sauce, mirin, and salt in another pot.",
+      "**Heat** the soup on medium heat until it is hot.",
+      "**Drain** the udon noodles and put them in bowls.",
+      "**Pour** the hot soup over the noodles.",
+      "**Add** green onion, fish cake, and an egg on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "thick", "meaning": "太い"},
+    {"word": "chewy", "meaning": "もちもちした"},
+    {"word": "soup", "meaning": "スープ・汁"},
+    {"word": "medium heat", "meaning": "中火"},
+    {"word": "another", "meaning": "もう一つの・別の"},
+    {"word": "bowl", "meaning": "丼・お椀"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "fish cake", "meaning": "かまぼこ"},
+    {"word": "noodle", "meaning": "麺"},
+    {"word": "over", "meaning": "〜の上に"}
+  ],
+  "quiz1": {
+    "question": "うどんのスープには何が入っていますか？",
+    "options": ["だし・醤油・みりん・塩", "だし・味噌・酒・砂糖", "だし・ケチャップ・塩・酢"],
+    "correct": 0
+  },
+  "review": {
+    "restaurant": "Botanical Bowl",
+    "location": "Glebe, Sydney",
+    "stars": 5,
+    "content": "I visited Botanical Bowl in Glebe on a rainy day. The restaurant was near a big park with many trees. Inside, it was warm and cozy. There were pink cushions on the chairs. I ordered hot udon with egg and fish cake. The noodles were thick and chewy. The soup was so warm and comforting. Soft jazz music was playing. It was a perfect rainy day lunch."
+  },
+  "review_vocab": [
+    {"word": "rainy", "meaning": "雨の"},
+    {"word": "park", "meaning": "公園"},
+    {"word": "inside", "meaning": "中は"},
+    {"word": "cushion", "meaning": "クッション"},
+    {"word": "chair", "meaning": "椅子"},
+    {"word": "comforting", "meaning": "ほっとする"},
+    {"word": "jazz", "meaning": "ジャズ"},
+    {"word": "playing", "meaning": "流れていた（音楽が）"},
+    {"word": "perfect", "meaning": "完璧な"},
+    {"word": "lunch", "meaning": "昼食"}
+  ],
+  "quiz2": {
+    "question": "このレストランに行った日の天気はどうでしたか？",
+    "options": ["晴れ", "曇り", "雨"],
+    "correct": 2
+  },
+  "australia_tips": {
+    "title": "オーストラリアでうどんを楽しもう！",
+    "content": "うどんの麺は、オーストラリアのアジア食材店で冷凍うどん（frozen udon）が手に入ります。冷凍うどんはゆでるだけですぐに食べられるので、とても便利です。乾麺（dried udon）もスーパーのアジアコーナーにあります。かまぼこは「fish cake」として売られています。\n\nグリーブ（Glebe）はシドニー大学の近くにあるエリアで、古本屋やカフェ、マーケットが多い学生の街です。毎週土曜日にはグリーブマーケットが開かれ、手作りのアクセサリーや食べ物が売られています。ワーホリの人にも人気のスポットです。\n\nオーストラリアでは、うどんは「Japanese thick noodles」として知られています。寒い日にうどんを作ると、シェアハウスのみんなが「What is that? It smells so good!」と集まってきますよ。卵を落としたうどんは特に人気です。\n\nグリーブの近くにはウェントワースパークがあり、春にはミモザやジャスミンの花が咲きます。公園を散歩してから温かいうどんを食べるのは、オーストラリアでの素敵な休日の過ごし方です。"
+  },
+  "conversation": {
+    "scene": "シェアハウスで風邪をひいたハウスメイトにうどんを作ってあげる場面",
+    "lines": [
+      {"speaker": "A", "text": "Hi, are you OK? You look sick."},
+      {"speaker": "B", "text": "I have a cold. My throat hurts."},
+      {"speaker": "A", "text": "Oh no. I will make udon for you."},
+      {"speaker": "B", "text": "What is udon?"},
+      {"speaker": "A", "text": "It is Japanese thick noodles in hot soup."},
+      {"speaker": "B", "text": "That sounds nice. Is it easy to eat?"},
+      {"speaker": "A", "text": "Yes! The noodles are soft and the soup is warm."},
+      {"speaker": "B", "text": "That is just what I need."},
+      {"speaker": "A", "text": "I will also put an egg in it. Eggs are good for you."},
+      {"speaker": "B", "text": "Thank you so much. You are very kind."},
+      {"speaker": "A", "text": "Here you go! Please eat it while it is hot."},
+      {"speaker": "B", "text": "Wow, this is so good. I feel better already!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "sick", "meaning": "具合が悪い"},
+    {"word": "cold", "meaning": "風邪"},
+    {"word": "throat", "meaning": "のど"},
+    {"word": "hurt", "meaning": "痛い"},
+    {"word": "sound", "meaning": "〜のように聞こえる"},
+    {"word": "just", "meaning": "ちょうど"},
+    {"word": "need", "meaning": "必要とする"},
+    {"word": "kind", "meaning": "やさしい"},
+    {"word": "here you go", "meaning": "はい、どうぞ"},
+    {"word": "feel better", "meaning": "気分がよくなる"}
+  ],
+  "quiz3": {
+    "question": "ハウスメイトはどこが痛いと言っていますか？",
+    "options": ["おなか", "のど", "頭"],
+    "correct": 1
+  },
+  "try_it_hint": "「I will make ○○ for you.」の形を使って、誰かのために料理を作ると伝えてみましょう。例：I will make soup for you.",
+  "meta": {"day": 24, "en": "Udon", "ja": "うどん", "emoji": "\ud83c\udf5c"}
+}

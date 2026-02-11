@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Tsukemono",
+    "intro": "Tsukemono are Japanese pickled vegetables. Asazuke is a quick and light pickle. It is very easy and takes only 30 minutes.",
+    "ingredients": "cucumber, cabbage, carrot, salt, kombu (dried kelp), ginger, chili flakes, rice vinegar",
+    "steps": [
+      "**Cut** the cucumber, cabbage, and carrot into thin pieces.",
+      "**Put** all the vegetables in a big bowl.",
+      "**Add** salt, small pieces of kombu, and a little ginger.",
+      "**Mix** everything well with your hands.",
+      "**Put** a plate on top and something heavy on the plate.",
+      "**Wait** for 30 minutes, then take out the vegetables and put them on a plate. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "pickled", "meaning": "漬けた"},
+    {"word": "vegetable", "meaning": "野菜"},
+    {"word": "quick", "meaning": "早い・すぐできる"},
+    {"word": "cucumber", "meaning": "きゅうり"},
+    {"word": "carrot", "meaning": "にんじん"},
+    {"word": "dried", "meaning": "乾燥した"},
+    {"word": "kelp", "meaning": "昆布"},
+    {"word": "chili flakes", "meaning": "唐辛子フレーク"},
+    {"word": "heavy", "meaning": "重い"},
+    {"word": "take out", "meaning": "取り出す"}
+  ],
+  "quiz1": {
+    "question": "浅漬けを作るとき、野菜の上に何をのせますか？",
+    "options": ["タオル", "お皿と重いもの", "ラップ"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Rooftop Garden Cafe",
+    "location": "Hamilton, Brisbane",
+    "stars": 5,
+    "content": "I found Rooftop Garden Cafe in Hamilton, Brisbane. It was on the top floor of a small building. There were many plants and flowers everywhere. I saw lavender and mimosa flowers around me. I ordered a Japanese set meal with tsukemono. The pickles were crunchy and fresh. The view of the river was beautiful. It was my favorite lunch this month."
+  },
+  "review_vocab": [
+    {"word": "rooftop", "meaning": "屋上"},
+    {"word": "floor", "meaning": "階"},
+    {"word": "plants", "meaning": "植物"},
+    {"word": "everywhere", "meaning": "あちこちに"},
+    {"word": "lavender", "meaning": "ラベンダー"},
+    {"word": "mimosa", "meaning": "ミモザ"},
+    {"word": "set meal", "meaning": "定食"},
+    {"word": "crunchy", "meaning": "ポリポリした・歯ごたえのある"},
+    {"word": "river", "meaning": "川"},
+    {"word": "favorite", "meaning": "お気に入りの"}
+  ],
+  "quiz2": {
+    "question": "レビューのレストランには何の花がありましたか？",
+    "options": ["バラとひまわり", "ラベンダーとミモザ", "ジャスミンとチューリップ"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで浅漬けを作るなら",
+    "content": "浅漬けの材料はオーストラリアのスーパーで全部そろいます。きゅうり（cucumber）、キャベツ（cabbage）、にんじん（carrot）は新鮮なものがいつでも買えます。塩（salt）も手軽に手に入るので、すぐに作れますよ。\n\n昆布（kombu）はアジア食材店で買えます。「dried kelp」や「kombu」で探してみましょう。なくても塩だけで十分おいしい浅漬けができます。\n\nハミルトン（Hamilton）はブリスベンのおしゃれなエリアです。ブリスベン川沿いにカフェやレストランがあり、リバービューを楽しめます。週末のブランチにぴったりの場所です。\n\n浅漬けはお弁当のおかずにもぴったりです。ワーホリ中のランチに、前の晩に作った浅漬けを持って行くと、節約にもなるし、野菜もしっかり取れます。ジップロック（zip lock bag）に入れると、重しがなくても簡単に漬けられますよ。"
+  },
+  "conversation": {
+    "scene": "スーパーで買い物中に、オーストラリア人の同僚と野菜の話をする場面",
+    "lines": [
+      {"speaker": "A", "text": "Hey, what are you making tonight?"},
+      {"speaker": "B", "text": "I will make Japanese pickles. We call them tsukemono."},
+      {"speaker": "A", "text": "Pickles? Like the ones in a jar?"},
+      {"speaker": "B", "text": "No, these are different. I use fresh vegetables and salt."},
+      {"speaker": "A", "text": "What vegetables do you need?"},
+      {"speaker": "B", "text": "Cucumber, cabbage, and carrot. They are all here."},
+      {"speaker": "A", "text": "That is easy. How do you make them?"},
+      {"speaker": "B", "text": "I cut them, add salt, and wait for 30 minutes."},
+      {"speaker": "A", "text": "Only 30 minutes? That is very fast!"},
+      {"speaker": "B", "text": "Yes! That is why we call it asazuke. It means quick pickle."},
+      {"speaker": "A", "text": "Can I try some when it is ready?"},
+      {"speaker": "B", "text": "Of course! I will make enough for both of us."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "pickles", "meaning": "漬物・ピクルス"},
+    {"word": "jar", "meaning": "びん・ジャー"},
+    {"word": "different", "meaning": "違う"},
+    {"word": "vegetables", "meaning": "野菜"},
+    {"word": "fast", "meaning": "速い・早い"},
+    {"word": "ready", "meaning": "できあがった"},
+    {"word": "both", "meaning": "両方"},
+    {"word": "only", "meaning": "たった〜だけ"},
+    {"word": "means", "meaning": "〜という意味"},
+    {"word": "tonight", "meaning": "今夜"}
+  ],
+  "quiz3": {
+    "question": "会話の中で、浅漬けはどのくらいの時間でできると言っていましたか？",
+    "options": ["10分", "30分", "1時間"],
+    "correct": 1
+  },
+  "try_it_hint": "「〇〇の作り方はとても簡単です」と説明する文を練習しましょう。例：It is very easy. I cut the vegetables, add salt, and wait for 30 minutes.",
+  "meta": {"day": 29, "en": "Tsukemono", "ja": "浅漬け", "emoji": "\ud83e\udd52"}
+}

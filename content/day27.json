@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Ochazuke",
+    "intro": "Ochazuke is a simple Japanese dish. You pour hot green tea or dashi over rice. It is warm and easy to make.",
+    "ingredients": "rice, green tea or dashi stock, salmon (cooked), nori (seaweed), wasabi, sesame seeds, green onion, umeboshi (pickled plum)",
+    "steps": [
+      "**Cook** the rice and put it in a bowl.",
+      "**Put** the cooked salmon on top of the rice.",
+      "**Add** small pieces of nori and green onion on top.",
+      "**Make** hot green tea or dashi stock.",
+      "**Pour** the hot tea slowly over the rice.",
+      "**Add** wasabi and sesame seeds on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "simple", "meaning": "シンプルな・簡単な"},
+    {"word": "cooked", "meaning": "調理済みの"},
+    {"word": "salmon", "meaning": "鮭"},
+    {"word": "seaweed", "meaning": "海苔・海藻"},
+    {"word": "sesame seeds", "meaning": "ごま"},
+    {"word": "pickled", "meaning": "漬けた"},
+    {"word": "plum", "meaning": "梅"},
+    {"word": "slowly", "meaning": "ゆっくりと"},
+    {"word": "on top", "meaning": "上に"}
+  ],
+  "quiz1": {
+    "question": "お茶漬けを作るとき、ごはんの上に何を最初にのせますか？",
+    "options": ["海苔", "鮭", "わさび"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Parkside Tea Garden",
+    "location": "South Bank, Brisbane",
+    "stars": 5,
+    "content": "I visited Parkside Tea Garden near South Bank last week. It was next to a beautiful park with big trees. I sat outside and the air was cool and fresh. I ordered ochazuke with salmon. The tea was hot and the salmon was very good. The restaurant was quiet and cozy. I saw jasmine flowers near my table. It was a very relaxing time."
+  },
+  "review_vocab": [
+    {"word": "visited", "meaning": "訪れた"},
+    {"word": "next to", "meaning": "〜の隣に"},
+    {"word": "outside", "meaning": "外で"},
+    {"word": "air", "meaning": "空気"},
+    {"word": "cool", "meaning": "涼しい"},
+    {"word": "fresh", "meaning": "新鮮な・さわやかな"},
+    {"word": "quiet", "meaning": "静かな"},
+    {"word": "relaxing", "meaning": "リラックスできる"},
+    {"word": "jasmine", "meaning": "ジャスミン"},
+    {"word": "garden", "meaning": "庭・ガーデン"}
+  ],
+  "quiz2": {
+    "question": "レビューのレストランはどんな場所の隣にありましたか？",
+    "options": ["海", "大きな木のある公園", "駅"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでお茶漬けを作るなら",
+    "content": "お茶漬けは材料が少なくて簡単なので、ワーホリ中にぴったりの料理です。緑茶のティーバッグ（green tea bags）はスーパーのお茶コーナーで買えます。「Japanese green tea」を選ぶとよいでしょう。\n\nスモークサーモン（smoked salmon）はオーストラリアのスーパーで簡単に手に入ります。日本の焼き鮭の代わりに使うとおいしいです。海苔やわさびはアジア食材店で買えます。\n\nブリスベンのサウスバンク（South Bank）は、街の中にある美しい公園エリアです。人工ビーチやレストラン、カフェがあり、週末にはマーケットも開かれます。ワーホリの人たちの憩いの場所です。\n\nお茶漬けは体調が悪いときや疲れたときにも食べやすい料理です。オーストラリアでの生活に慣れるまで、簡単に作れるお茶漬けを覚えておくと安心ですよ。"
+  },
+  "conversation": {
+    "scene": "風邪をひいたハウスメイトのLilyに、お茶漬けを作ってあげる場面",
+    "lines": [
+      {"speaker": "A", "text": "Lily, are you OK? You look tired."},
+      {"speaker": "B", "text": "I have a cold. I am not very hungry."},
+      {"speaker": "A", "text": "I will make something light for you. Do you like rice?"},
+      {"speaker": "B", "text": "Yes, I like rice. What will you make?"},
+      {"speaker": "A", "text": "Ochazuke. It is rice with hot green tea. It is very easy to eat."},
+      {"speaker": "B", "text": "That sounds nice. Is it warm?"},
+      {"speaker": "A", "text": "Yes, it is very warm. It is good when you are sick."},
+      {"speaker": "B", "text": "Thank you. You are so kind."},
+      {"speaker": "A", "text": "Here you are. I put salmon and seaweed on top."},
+      {"speaker": "B", "text": "Mmm, it smells good. Can I eat it now?"},
+      {"speaker": "A", "text": "Yes, please eat it slowly. It is hot."},
+      {"speaker": "B", "text": "This is so good! I feel warmer now. Thank you!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "tired", "meaning": "疲れた"},
+    {"word": "cold", "meaning": "風邪"},
+    {"word": "hungry", "meaning": "お腹がすいた"},
+    {"word": "light", "meaning": "軽い（食事）"},
+    {"word": "easy to eat", "meaning": "食べやすい"},
+    {"word": "sick", "meaning": "病気の"},
+    {"word": "kind", "meaning": "やさしい"},
+    {"word": "here you are", "meaning": "はい、どうぞ"},
+    {"word": "warmer", "meaning": "より暖かい"},
+    {"word": "smells good", "meaning": "いいにおいがする"}
+  ],
+  "quiz3": {
+    "question": "会話の中で、Lilyはどうして元気がなかったですか？",
+    "options": ["仕事で疲れていた", "風邪をひいていた", "お腹がすいていた"],
+    "correct": 1
+  },
+  "try_it_hint": "「〇〇を作ってあげましょうか？」と提案する文を練習しましょう。例：I will make something warm for you. Do you like soup?",
+  "meta": {"day": 27, "en": "Ochazuke", "ja": "お茶漬け", "emoji": "\ud83c\udf75"}
+}

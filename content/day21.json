@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Chawanmushi",
+    "intro": "Chawanmushi is a Japanese egg custard. It is soft, warm, and very gentle.",
+    "ingredients": "eggs, dashi stock, soy sauce, salt, chicken, shrimp, mushroom, mitsuba (or parsley)",
+    "steps": [
+      "**Mix** two eggs, dashi stock, a little soy sauce, and salt in a bowl.",
+      "**Strain** the egg mix through a net to make it smooth.",
+      "**Put** small pieces of chicken, shrimp, and mushroom in cups.",
+      "**Pour** the egg mix into the cups slowly.",
+      "**Cover** the cups with foil and steam for fifteen minutes on low heat.",
+      "**Put** mitsuba or parsley on top and serve. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "custard", "meaning": "プリンのようなもの"},
+    {"word": "egg", "meaning": "卵"},
+    {"word": "dashi stock", "meaning": "だし汁"},
+    {"word": "strain", "meaning": "こす"},
+    {"word": "smooth", "meaning": "なめらかな"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "steam", "meaning": "蒸す"},
+    {"word": "foil", "meaning": "アルミホイル"},
+    {"word": "shrimp", "meaning": "エビ"},
+    {"word": "gentle", "meaning": "やさしい・おだやかな"}
+  ],
+  "quiz1": {
+    "question": "茶碗蒸しの卵液をなめらかにするために何をしますか？",
+    "options": ["よく混ぜる", "網でこす", "冷蔵庫で冷やす"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Harbour Blossom Kitchen",
+    "location": "Watsons Bay, Sydney",
+    "stars": 5,
+    "content": "I went to Harbour Blossom Kitchen in Watsons Bay last Saturday. It was on a hill near the sea. I sat outside and saw the beautiful harbour. The sky was pink and orange at sunset. I ate chawanmushi and it was very soft and warm. There were small jasmine flowers on my table. The place was quiet and cozy. I felt very happy there."
+  },
+  "review_vocab": [
+    {"word": "harbour", "meaning": "港"},
+    {"word": "hill", "meaning": "丘"},
+    {"word": "sunset", "meaning": "夕日・日の入り"},
+    {"word": "sky", "meaning": "空"},
+    {"word": "pink", "meaning": "ピンク色の"},
+    {"word": "quiet", "meaning": "静かな"},
+    {"word": "felt", "meaning": "感じた（feelの過去形）"},
+    {"word": "happy", "meaning": "幸せな"},
+    {"word": "warm", "meaning": "温かい"},
+    {"word": "outside", "meaning": "外で"}
+  ],
+  "quiz2": {
+    "question": "レビューでは、夕日のとき空は何色でしたか？",
+    "options": ["青と白", "ピンクとオレンジ", "黄色と紫"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで茶碗蒸しを作ろう！",
+    "content": "茶碗蒸しに必要な卵は、オーストラリアのどのスーパーでも手に入ります。だしの素は「Dashi powder」としてアジア食材店で売っています。ColesやWoolworthsのアジア食材コーナーにもある場合があります。エビ（Shrimp/Prawn）もスーパーで買えます。\n\nワトソンズベイ（Watsons Bay）はシドニーの東にある美しい港町です。フェリーでサーキュラーキーから行くことができます。海を見ながらのんびりできるカフェやレストランがたくさんあります。夕方に行くと、きれいな夕日が見られますよ。\n\nワーホリ中に茶碗蒸しを作るときは、蒸し器がなくても大丈夫です。大きな鍋にお湯を入れて、その中にカップを置けば蒸すことができます。シェアハウスのキッチンでも簡単に作れます。\n\nワトソンズベイの近くには、ジャスミンの花が咲く庭のあるカフェもあります。海風を感じながら温かい茶碗蒸しを食べるのは最高ですね。週末にフェリーで遊びに行ってみてください。"
+  },
+  "conversation": {
+    "scene": "カフェで働いているとき、お客さんに日本料理について聞かれる場面",
+    "lines": [
+      {"speaker": "A", "text": "Excuse me, what is chawanmushi?"},
+      {"speaker": "B", "text": "It is a Japanese egg custard. It is warm and soft."},
+      {"speaker": "A", "text": "Oh, like a pudding?"},
+      {"speaker": "B", "text": "A little, but it is not sweet. It has dashi inside."},
+      {"speaker": "A", "text": "What is dashi?"},
+      {"speaker": "B", "text": "Dashi is Japanese soup stock. It is made from fish."},
+      {"speaker": "A", "text": "That sounds interesting. What is inside it?"},
+      {"speaker": "B", "text": "There is chicken, shrimp, and mushroom inside."},
+      {"speaker": "A", "text": "Is it hard to make?"},
+      {"speaker": "B", "text": "No, it is not hard. But you need to steam it slowly."},
+      {"speaker": "A", "text": "I want to try it! Can you teach me?"},
+      {"speaker": "B", "text": "Sure! It is easy. I can show you this weekend."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "excuse me", "meaning": "すみません"},
+    {"word": "pudding", "meaning": "プリン"},
+    {"word": "sweet", "meaning": "甘い"},
+    {"word": "soup stock", "meaning": "だし・スープストック"},
+    {"word": "interesting", "meaning": "おもしろい"},
+    {"word": "inside", "meaning": "中に"},
+    {"word": "hard", "meaning": "難しい"},
+    {"word": "slowly", "meaning": "ゆっくり"},
+    {"word": "teach", "meaning": "教える"},
+    {"word": "weekend", "meaning": "週末"}
+  ],
+  "quiz3": {
+    "question": "Bさんは茶碗蒸しについて「甘い」と言いましたか？",
+    "options": ["はい、甘いと言った", "いいえ、甘くないと言った", "甘さについては話していない"],
+    "correct": 1
+  },
+  "try_it_hint": "「It is a Japanese ○○. It is ○○ and ○○.」の形を使って、日本の料理を説明してみましょう。例：It is a Japanese soup. It is warm and delicious.",
+  "meta": {"day": 21, "en": "Chawanmushi", "ja": "茶碗蒸し", "emoji": "\ud83c\udf6e"}
+}

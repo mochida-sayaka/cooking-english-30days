@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "title": "How to Make Soba",
+    "intro": "Soba are thin Japanese noodles made from buckwheat. You can eat them hot or cold.",
+    "ingredients": "dried soba noodles, water, soy sauce, mirin, dashi stock, green onion, wasabi, nori (seaweed)",
+    "steps": [
+      "**Boil** a lot of water in a big pot.",
+      "**Cook** the soba noodles in the water for four or five minutes.",
+      "**Drain** the noodles and wash them in cold water.",
+      "**Mix** soy sauce, mirin, and dashi stock in a small pot and heat it.",
+      "**Put** the cold soba on a plate and cut green onion on top.",
+      "**Serve** with dipping sauce, wasabi, and nori on the side. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "noodle", "meaning": "麺"},
+    {"word": "buckwheat", "meaning": "そば粉"},
+    {"word": "thin", "meaning": "細い"},
+    {"word": "dried", "meaning": "乾燥した"},
+    {"word": "drain", "meaning": "水を切る"},
+    {"word": "wash", "meaning": "洗う"},
+    {"word": "mirin", "meaning": "みりん"},
+    {"word": "seaweed", "meaning": "海苔・海藻"},
+    {"word": "side", "meaning": "横・そば"},
+    {"word": "cold", "meaning": "冷たい"}
+  ],
+  "quiz1": {
+    "question": "そばをゆでた後、どうしますか？",
+    "options": ["お湯に入れたままにする", "冷たい水で洗う", "フライパンで焼く"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Teneriffe Sunset Terrace",
+    "location": "Teneriffe, Brisbane",
+    "stars": 5,
+    "content": "I went to Teneriffe Sunset Terrace last Friday evening. It was by the Brisbane River. The terrace was very big and I could see the river and the sunset. The sky turned pink and purple. I ordered cold soba with dipping sauce. The noodles were smooth and the sauce was delicious. There were small yellow flowers on every table. The music was soft and the feeling was very cozy. I really liked this place."
+  },
+  "review_vocab": [
+    {"word": "evening", "meaning": "夕方"},
+    {"word": "sunset", "meaning": "夕日"},
+    {"word": "turned", "meaning": "変わった（turnの過去形）"},
+    {"word": "purple", "meaning": "紫色の"},
+    {"word": "smooth", "meaning": "なめらかな"},
+    {"word": "delicious", "meaning": "おいしい"},
+    {"word": "feeling", "meaning": "雰囲気・気持ち"},
+    {"word": "music", "meaning": "音楽"},
+    {"word": "really", "meaning": "本当に"},
+    {"word": "every", "meaning": "すべての"}
+  ],
+  "quiz2": {
+    "question": "レビューの人は何曜日にこのレストランに行きましたか？",
+    "options": ["土曜日", "日曜日", "金曜日"],
+    "correct": 2
+  },
+  "australia_tips": {
+    "title": "オーストラリアでそばを楽しもう！",
+    "content": "乾燥そば（dried soba noodles）は、オーストラリアのアジア食材店で買えます。大きなスーパーのアジア食材コーナーにもあることがあります。めんつゆ（Tsuyu）もアジア食材店で手に入りますが、なければ醤油・みりん・だしで簡単に作れます。\n\nテネリフ（Teneriffe）は、ブリスベン川沿いのおしゃれなエリアです。古い倉庫を改装したカフェやレストランが多く、リバーサイドのテラスで食事を楽しめます。夕方に行くと、川に映る夕日がとてもきれいです。\n\nオーストラリアの夏はとても暑いので、冷たいそばは大人気です。ワーホリ先の友達に冷たいそばを作ってあげると、「Cool noodles!」と喜ばれるかもしれません。わさびが苦手な人もいるので、「Do you like wasabi?」と聞いてあげましょう。\n\nテネリフの川沿いには、ジャスミンの香りがするウォーキングコースもあります。散歩をしてから、手作りのそばを食べるのは最高の週末の過ごし方ですね。"
+  },
+  "conversation": {
+    "scene": "レストランのキッチンで働いていて、シェフにそばの作り方を説明する場面",
+    "lines": [
+      {"speaker": "A", "text": "Can you show me how to make soba?"},
+      {"speaker": "B", "text": "Sure! First, we boil a lot of water."},
+      {"speaker": "A", "text": "OK. How long do we cook the noodles?"},
+      {"speaker": "B", "text": "About four or five minutes."},
+      {"speaker": "A", "text": "And then?"},
+      {"speaker": "B", "text": "Then we drain them and wash them in cold water."},
+      {"speaker": "A", "text": "Why cold water?"},
+      {"speaker": "B", "text": "It makes the noodles smooth and firm."},
+      {"speaker": "A", "text": "I see. What about the sauce?"},
+      {"speaker": "B", "text": "We mix soy sauce, mirin, and dashi together."},
+      {"speaker": "A", "text": "Do we serve it hot or cold?"},
+      {"speaker": "B", "text": "Today we will serve it cold. It is very good on a hot day."},
+      {"speaker": "A", "text": "Great! I will try making it now."},
+      {"speaker": "B", "text": "Good luck! Call me if you need help."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "show", "meaning": "見せる・教える"},
+    {"word": "first", "meaning": "最初に"},
+    {"word": "then", "meaning": "それから"},
+    {"word": "firm", "meaning": "しっかりした・コシのある"},
+    {"word": "I see", "meaning": "なるほど"},
+    {"word": "what about", "meaning": "〜はどうですか"},
+    {"word": "together", "meaning": "一緒に"},
+    {"word": "serve", "meaning": "提供する"},
+    {"word": "great", "meaning": "すばらしい"},
+    {"word": "good luck", "meaning": "がんばって"}
+  ],
+  "quiz3": {
+    "question": "なぜそばを冷たい水で洗いますか？",
+    "options": ["色をきれいにするため", "麺をなめらかでしっかりさせるため", "味をつけるため"],
+    "correct": 1
+  },
+  "try_it_hint": "「Can you show me how to make ○○?」の形を使って、作り方を聞いてみましょう。例：Can you show me how to make salad?",
+  "meta": {"day": 23, "en": "Soba", "ja": "そば", "emoji": "\ud83c\udf5d"}
+}

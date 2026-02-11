@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "title": "How to Make Takoyaki",
+    "intro": "Takoyaki are small round balls from Osaka. They have octopus inside and are crispy outside.",
+    "ingredients": "flour, egg, water, dashi powder, octopus, green onion, pickled ginger, takoyaki sauce, mayonnaise, bonito flakes, vegetable oil",
+    "steps": [
+      "**Mix** flour, egg, water, and dashi powder in a big bowl to make the batter.",
+      "**Cut** the octopus, green onion, and pickled ginger into small pieces.",
+      "**Heat** oil in the takoyaki pan and pour the batter into each hole.",
+      "**Drop** a piece of octopus and some green onion into each hole.",
+      "**Turn** each ball with a pick when the bottom is cooked.",
+      "**Cook** until all the balls are round and golden brown. Put sauce, mayonnaise, and bonito flakes on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "octopus", "meaning": "タコ"},
+    {"word": "ball", "meaning": "ボール・丸い玉"},
+    {"word": "dashi", "meaning": "だし"},
+    {"word": "green onion", "meaning": "ねぎ"},
+    {"word": "pickled ginger", "meaning": "紅しょうが"},
+    {"word": "hole", "meaning": "穴"},
+    {"word": "drop", "meaning": "落とす・入れる"},
+    {"word": "pick", "meaning": "ピック・串"},
+    {"word": "bottom", "meaning": "底"},
+    {"word": "golden brown", "meaning": "きつね色の"}
+  ],
+  "quiz1": {
+    "question": "たこ焼きを丸くするために何を使いますか？",
+    "options": ["はし", "ピック（串）", "スプーン"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Sunset Bay Kitchen",
+    "location": "Woolloongabba, Brisbane",
+    "stars": 5,
+    "content": "I went to Sunset Bay Kitchen last Thursday. It was a fun little restaurant in Woolloongabba. The inside was warm and colorful. There were yellow and pink lights on the walls. I ordered takoyaki and a cold drink. The takoyaki were hot and crispy outside. The octopus inside was soft. The staff were very friendly. I sat on a comfortable sofa and enjoyed my meal. It was a wonderful evening."
+  },
+  "review_vocab": [
+    {"word": "sunset", "meaning": "夕日"},
+    {"word": "colorful", "meaning": "カラフルな"},
+    {"word": "light", "meaning": "照明・ライト"},
+    {"word": "cold drink", "meaning": "冷たい飲み物"},
+    {"word": "outside", "meaning": "外側"},
+    {"word": "staff", "meaning": "スタッフ・店員"},
+    {"word": "friendly", "meaning": "親切な・フレンドリーな"},
+    {"word": "comfortable", "meaning": "快適な"},
+    {"word": "sofa", "meaning": "ソファ"},
+    {"word": "wonderful", "meaning": "すばらしい"}
+  ],
+  "quiz2": {
+    "question": "レストランの壁にはどんな色のライトがありましたか？",
+    "options": ["青と緑", "黄色とピンク", "白とラベンダー"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでたこ焼きを作るなら",
+    "content": "たこ焼き器はオーストラリアではあまり売っていないので、日本から持っていくか、アジア食材店やネット通販（Amazon Australia）で探しましょう。電気式のたこ焼き器が便利です。\n\nタコ（octopus）は魚屋さん（fish shop）やスーパーの魚コーナーで「cooked octopus」として買えます。すでにゆでてあるものが多いので、そのまま切って使えます。だしの素（dashi powder）と紅しょうが（pickled ginger）はアジア食材店で手に入ります。\n\nWoolloongabbaはブリスベンの中心部に近いエリアです。おしゃれなカフェやレストランが増えていて、若い人に人気があります。週末にはマーケットが開かれることもあり、いろいろな国の料理が楽しめます。\n\nたこ焼きパーティーはオーストラリアの友達にとても人気です。みんなで焼く体験が楽しいからです。「Would you like to try making takoyaki?」と誘ってみましょう。きっと盛り上がりますよ。"
+  },
+  "conversation": {
+    "scene": "週末のパーティーで、友達のOliviaとたこ焼きを焼きながら話す場面",
+    "lines": [
+      {"speaker": "A", "text": "Olivia, have you ever eaten takoyaki?"},
+      {"speaker": "B", "text": "No, I have not. What is it?"},
+      {"speaker": "A", "text": "It is a small round ball with octopus inside. It is from Osaka."},
+      {"speaker": "B", "text": "Octopus? That sounds fun! How do you cook it?"},
+      {"speaker": "A", "text": "You pour batter into this special pan. See the small holes?"},
+      {"speaker": "B", "text": "Yes! They are so cute. What do I put in?"},
+      {"speaker": "A", "text": "Put one piece of octopus and some green onion in each hole."},
+      {"speaker": "B", "text": "OK, I did it. What is next?"},
+      {"speaker": "A", "text": "Now we wait. When the bottom is cooked, turn it with this pick."},
+      {"speaker": "B", "text": "Oh, it is hard to turn! But I will try."},
+      {"speaker": "A", "text": "You did it! Look, it is a perfect ball!"},
+      {"speaker": "B", "text": "Wow, I am so proud! Can I eat it now?"},
+      {"speaker": "A", "text": "Yes! But be careful. It is very hot inside."},
+      {"speaker": "B", "text": "Mmm! It is crispy and delicious. I love takoyaki!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "ever", "meaning": "今までに"},
+    {"word": "eaten", "meaning": "食べた（eatの過去分詞）"},
+    {"word": "special", "meaning": "特別な"},
+    {"word": "cute", "meaning": "かわいい"},
+    {"word": "each", "meaning": "それぞれの"},
+    {"word": "wait", "meaning": "待つ"},
+    {"word": "turn", "meaning": "回す・ひっくり返す"},
+    {"word": "proud", "meaning": "誇らしい・うれしい"},
+    {"word": "careful", "meaning": "気をつけて"},
+    {"word": "delicious", "meaning": "おいしい"}
+  ],
+  "quiz3": {
+    "question": "Oliviaはたこ焼きを食べてどう思いましたか？",
+    "options": ["辛すぎると思った", "カリッとしておいしいと思った", "まあまあだと思った"],
+    "correct": 1
+  },
+  "try_it_hint": "「〇〇を食べたことがありますか？」「いいえ、ありません。それは何ですか？」という会話を英語で書いてみましょう。例：Have you ever eaten takoyaki? No, I have not. What is it?",
+  "meta": {"day": 15, "en": "Takoyaki", "ja": "たこ焼き", "emoji": "\ud83d\udc19"}
+}

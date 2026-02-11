@@ -1,0 +1,99 @@
+{
+  "recipe": {
+    "title": "How to Make Yurinjii",
+    "intro": "Yurinjii is Chinese-style fried chicken with a sour and sweet green onion sauce. It is very popular at Japanese restaurants.",
+    "ingredients": "chicken thigh, salt, pepper, corn starch, vegetable oil, green onion, soy sauce, rice vinegar, sugar, sesame oil, garlic, ginger, lettuce",
+    "steps": [
+      "**Cut** the chicken into big flat pieces and add salt and pepper.",
+      "**Cover** the chicken with corn starch on both sides.",
+      "**Fry** the chicken in hot oil until it is crispy and golden brown.",
+      "**Chop** the green onion into small pieces.",
+      "**Make** the sauce by mixing soy sauce, rice vinegar, sugar, sesame oil, garlic, and ginger.",
+      "**Put** the chicken on lettuce, pour the green onion sauce on top, and serve. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "Chinese-style", "meaning": "中華風の"},
+    {"word": "green onion", "meaning": "ねぎ"},
+    {"word": "flat", "meaning": "平らな"},
+    {"word": "both sides", "meaning": "両面"},
+    {"word": "chop", "meaning": "刻む"},
+    {"word": "sauce", "meaning": "ソース・たれ"},
+    {"word": "lettuce", "meaning": "レタス"},
+    {"word": "pour", "meaning": "かける・注ぐ"},
+    {"word": "rice vinegar", "meaning": "米酢"},
+    {"word": "sesame oil", "meaning": "ごま油"}
+  ],
+  "quiz1": {
+    "question": "油淋鶏のソースに入っていないものはどれですか？",
+    "options": ["ねぎ", "マヨネーズ", "ごま油"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Harbour Blossom Cafe",
+    "location": "Darling Harbour, Sydney",
+    "stars": 5,
+    "content": "I went to Harbour Blossom Cafe at Darling Harbour in Sydney. The restaurant was right next to the water. I sat outside and enjoyed the harbour view. There were boats and city lights on the water. It was a cool evening. I ordered Yurinjii and it was wonderful. The chicken was very crispy and the green onion sauce was fresh and sour. There were pink flowers on the table and the chairs were very comfortable. I had a really nice time."
+  },
+  "review_vocab": [
+    {"word": "harbour", "meaning": "港"},
+    {"word": "blossom", "meaning": "花"},
+    {"word": "right next to", "meaning": "すぐ隣に"},
+    {"word": "outside", "meaning": "外で"},
+    {"word": "boat", "meaning": "ボート・船"},
+    {"word": "evening", "meaning": "夕方・夜"},
+    {"word": "wonderful", "meaning": "すばらしい"},
+    {"word": "fresh", "meaning": "新鮮な・さわやかな"},
+    {"word": "comfortable", "meaning": "快適な"},
+    {"word": "really", "meaning": "本当に"}
+  ],
+  "quiz2": {
+    "question": "レストランの外には何が見えましたか？",
+    "options": ["山と森", "ボートとシティライト", "ビーチとサーファー"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで油淋鶏を作るなら",
+    "content": "油淋鶏のポイントはねぎソースです。オーストラリアのスーパーでは、ねぎは「green onion」や「spring onion」として売られています。日本のねぎより細いですが、味は十分おいしくできます。にんにくと生姜はチューブのものもアジア食材店で見つけられます。\n\nシドニーのDarling Harbour（ダーリングハーバー）は、ショッピングやレストランが集まる人気エリアです。水辺にテラス席のあるレストランがたくさんあり、夜はライトアップされてとてもきれいです。週末にはストリートパフォーマンスも楽しめます。\n\n油淋鶏は揚げ物ですが、ねぎソースのおかげでさっぱり食べられます。暑いオーストラリアの夏にもぴったりの味です。レタスを下に敷くと、見た目もきれいで、野菜も一緒に食べられます。\n\nダーリングハーバーの近くには中華街（Chinatown）もあり、アジアの食材や調味料が何でもそろいます。ワーホリ中は自炊で節約しながら、たまにはハーバー沿いのカフェで海を眺めてリラックスするのも良いですね。ピンクや黄色の花が飾られたかわいいカフェもたくさんありますよ。"
+  },
+  "conversation": {
+    "scene": "シェアハウスのディナーパーティーで、いろいろな国の人たちに油淋鶏を紹介する場面",
+    "lines": [
+      {"speaker": "A", "text": "Everyone, please try this dish. It is called Yurinjii."},
+      {"speaker": "B", "text": "Yurinjii? How do you spell it?"},
+      {"speaker": "A", "text": "Y-U-R-I-N-J-I-I. It is fried chicken with green onion sauce."},
+      {"speaker": "B", "text": "It smells amazing! What is in the sauce?"},
+      {"speaker": "A", "text": "Green onion, soy sauce, vinegar, and sesame oil."},
+      {"speaker": "B", "text": "Oh, I can smell the sesame oil. I love it."},
+      {"speaker": "A", "text": "Please take some lettuce too. It is good together."},
+      {"speaker": "B", "text": "Mmm! The chicken is so crispy and the sauce is really fresh."},
+      {"speaker": "A", "text": "I am happy you like it! It is a popular dish in Japan."},
+      {"speaker": "B", "text": "Is it Chinese food or Japanese food?"},
+      {"speaker": "A", "text": "It is Chinese-style, but many Japanese people eat it at home."},
+      {"speaker": "B", "text": "That is interesting. I want to learn this recipe!"},
+      {"speaker": "A", "text": "Sure! It is not difficult. I can teach you this weekend."},
+      {"speaker": "B", "text": "Thank you so much! This is the best dinner party."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "everyone", "meaning": "みなさん"},
+    {"word": "please", "meaning": "どうぞ"},
+    {"word": "spell", "meaning": "つづる"},
+    {"word": "amazing", "meaning": "すばらしい"},
+    {"word": "take", "meaning": "取る"},
+    {"word": "happy", "meaning": "うれしい"},
+    {"word": "Chinese-style", "meaning": "中華風の"},
+    {"word": "at home", "meaning": "家で"},
+    {"word": "difficult", "meaning": "難しい"},
+    {"word": "weekend", "meaning": "週末"},
+    {"word": "best", "meaning": "最高の"},
+    {"word": "dinner party", "meaning": "ディナーパーティー"}
+  ],
+  "quiz3": {
+    "question": "Bさんは油淋鶏について最後に何と言いましたか？",
+    "options": ["レシピを教えてほしいと言った", "あまり好きではないと言った", "もう一つ食べたいと言った"],
+    "correct": 0
+  },
+  "try_it_hint": "「みなさん、この料理を食べてみてください。〇〇といいます。」という文を英語で書いてみましょう。例：Everyone, please try this dish. It is called okonomiyaki.",
+  "meta": {"day": 5, "en": "Yurinjii", "ja": "油淋鶏", "emoji": "\ud83d\udc14"}
+}

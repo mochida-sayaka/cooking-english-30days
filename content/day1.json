@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Gyoza",
+    "intro": "Gyoza are small Japanese dumplings. They have meat and vegetables inside.",
+    "ingredients": "ground pork, cabbage, garlic, ginger, soy sauce, sesame oil, salt, pepper, gyoza wrappers, water, vegetable oil",
+    "steps": [
+      "**Cut** the cabbage into very small pieces.",
+      "**Mix** the pork, cabbage, garlic, ginger, soy sauce, sesame oil, salt, and pepper in a big bowl.",
+      "**Put** a little meat on each gyoza wrapper.",
+      "**Fold** the wrapper in half and press the edges together.",
+      "**Heat** oil in a pan and put the gyoza in the pan.",
+      "**Add** a little water, cover the pan, and cook for five minutes. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "dumpling", "meaning": "小さな包み料理（餃子など）"},
+    {"word": "ground pork", "meaning": "豚ひき肉"},
+    {"word": "cabbage", "meaning": "キャベツ"},
+    {"word": "wrapper", "meaning": "（餃子の）皮"},
+    {"word": "fold", "meaning": "折りたたむ"},
+    {"word": "press", "meaning": "押す"},
+    {"word": "edge", "meaning": "端・ふち"},
+    {"word": "cover", "meaning": "ふたをする"},
+    {"word": "mix", "meaning": "混ぜる"},
+    {"word": "heat", "meaning": "熱する"}
+  ],
+  "quiz1": {
+    "question": "餃子の皮に肉をのせた後、次にすることは何ですか？",
+    "options": ["フライパンに油を入れる", "皮を半分に折って端を押さえる", "キャベツを細かく切る"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Ocean Breeze Dumpling Cafe",
+    "location": "Manly Beach, Sydney",
+    "stars": 5,
+    "content": "I went to Ocean Breeze Dumpling Cafe last Sunday. It was near Manly Beach. I sat on the terrace and saw the beautiful ocean. The wind was warm and nice. I ate gyoza and they were very good. The skin was crispy and the meat was juicy. Pink and yellow flowers were on the table. It was a very cozy and happy place."
+  },
+  "review_vocab": [
+    {"word": "ocean", "meaning": "海・大洋"},
+    {"word": "breeze", "meaning": "そよ風"},
+    {"word": "terrace", "meaning": "テラス"},
+    {"word": "beautiful", "meaning": "美しい"},
+    {"word": "crispy", "meaning": "パリパリした"},
+    {"word": "juicy", "meaning": "ジューシーな"},
+    {"word": "cozy", "meaning": "居心地のよい"},
+    {"word": "warm", "meaning": "暖かい"},
+    {"word": "skin", "meaning": "（餃子の）皮"},
+    {"word": "place", "meaning": "場所"}
+  ],
+  "quiz2": {
+    "question": "レビューでは、テーブルの上に何がありましたか？",
+    "options": ["キャンドル", "ピンクと黄色の花", "メニュー"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで餃子を作るなら",
+    "content": "オーストラリアのスーパー（ColesやWoolworths）では、豚ひき肉（pork mince）が簡単に手に入ります。餃子の皮は「dumpling wrappers」や「gyoza wrappers」としてアジア食材コーナーで売っています。見つからない場合は、近くのアジア食材店（Asian grocery store）を探してみましょう。\n\nシドニーのManly Beachは、フェリーで行ける人気のビーチです。海沿いにはカフェやレストランがたくさんあり、テラス席でオーシャンビューを楽しみながら食事ができます。ワーホリの人たちにも人気のエリアです。\n\nオーストラリアでは、シェアハウスで暮らす人が多いです。キッチンを使って餃子パーティーをすれば、ハウスメイトとの交流にぴったり！「Do you want to try?」と声をかけてみましょう。\n\n春になると、シドニーの街にはジャスミンやミモザの花が咲きます。黄色いミモザの花を見ながらお散歩した後に、手作り餃子を楽しむのも素敵ですね。"
+  },
+  "conversation": {
+    "scene": "シェアハウスのキッチンで、ハウスメイトのEmmaと一緒に餃子を作る場面",
+    "lines": [
+      {"speaker": "A", "text": "Hi Emma! I will make gyoza tonight. Do you want to help me?"},
+      {"speaker": "B", "text": "Sure! I love gyoza. What do we need?"},
+      {"speaker": "A", "text": "We need pork, cabbage, garlic, and gyoza wrappers."},
+      {"speaker": "B", "text": "OK. I can cut the cabbage. How small?"},
+      {"speaker": "A", "text": "Very small, please. Like this."},
+      {"speaker": "B", "text": "Got it! What do you do next?"},
+      {"speaker": "A", "text": "I mix the pork and vegetables together."},
+      {"speaker": "B", "text": "Can I try to fold one?"},
+      {"speaker": "A", "text": "Of course! Put a little meat here. Then fold it like this."},
+      {"speaker": "B", "text": "Oh, it is not easy! But it is fun."},
+      {"speaker": "A", "text": "You are good at it! Now I will cook them in the pan."},
+      {"speaker": "B", "text": "Wow, they smell so good! Can I eat one now?"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "tonight", "meaning": "今夜"},
+    {"word": "help", "meaning": "手伝う"},
+    {"word": "need", "meaning": "必要とする"},
+    {"word": "cut", "meaning": "切る"},
+    {"word": "together", "meaning": "一緒に"},
+    {"word": "try", "meaning": "やってみる"},
+    {"word": "of course", "meaning": "もちろん"},
+    {"word": "easy", "meaning": "簡単な"},
+    {"word": "fun", "meaning": "楽しい"},
+    {"word": "smell", "meaning": "においがする"}
+  ],
+  "quiz3": {
+    "question": "Emmaは餃子作りで最初に何を手伝いましたか？",
+    "options": ["肉を混ぜた", "キャベツを切った", "餃子を焼いた"],
+    "correct": 1
+  },
+  "try_it_hint": "「今夜〇〇を作ります。手伝ってくれますか？」という文を英語で書いてみましょう。例：I will make curry tonight. Do you want to help me?",
+  "meta": {"day": 1, "en": "Gyoza", "ja": "餃子", "emoji": "\ud83e\udd5f"}
+}

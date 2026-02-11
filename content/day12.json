@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Teriyaki Chicken",
+    "intro": "Teriyaki chicken is a popular Japanese dish. The chicken has a sweet and shiny sauce.",
+    "ingredients": "chicken thigh, soy sauce, mirin, sugar, vegetable oil, white sesame seeds",
+    "steps": [
+      "**Cut** the chicken thigh into big pieces.",
+      "**Heat** oil in a pan on medium heat.",
+      "**Put** the chicken in the pan, skin side down, and cook for five minutes.",
+      "**Turn** the chicken over and cook for three more minutes.",
+      "**Add** soy sauce, mirin, and sugar to the pan.",
+      "**Cook** until the sauce is thick and shiny. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "chicken", "meaning": "鶏肉"},
+    {"word": "thigh", "meaning": "もも肉"},
+    {"word": "shiny", "meaning": "ツヤのある"},
+    {"word": "sauce", "meaning": "ソース・たれ"},
+    {"word": "skin", "meaning": "皮"},
+    {"word": "turn over", "meaning": "ひっくり返す"},
+    {"word": "thick", "meaning": "とろっとした"},
+    {"word": "until", "meaning": "〜まで"},
+    {"word": "sesame seeds", "meaning": "ごま"},
+    {"word": "side", "meaning": "面・側"}
+  ],
+  "quiz1": {
+    "question": "鶏肉をフライパンに入れるとき、最初にどちら側を下にしますか？",
+    "options": ["皮の側を下にする", "肉の側を下にする", "どちらでもよい"],
+    "correct": 0
+  },
+  "review": {
+    "restaurant": "The Rooftop Jasmine",
+    "location": "Kangaroo Point, Brisbane",
+    "stars": 5,
+    "content": "I visited The Rooftop Jasmine last Friday night. It was on top of a building at Kangaroo Point. I could see the city lights and the river from the rooftop. Jasmine flowers were everywhere and the smell was lovely. I ordered teriyaki chicken with rice. The sauce was sweet and the chicken was very tender. The night was warm and the pink lights made the place very romantic."
+  },
+  "review_vocab": [
+    {"word": "rooftop", "meaning": "屋上"},
+    {"word": "building", "meaning": "建物"},
+    {"word": "city lights", "meaning": "街の明かり"},
+    {"word": "river", "meaning": "川"},
+    {"word": "everywhere", "meaning": "どこにでも"},
+    {"word": "lovely", "meaning": "すてきな"},
+    {"word": "ordered", "meaning": "注文した"},
+    {"word": "tender", "meaning": "やわらかい"},
+    {"word": "romantic", "meaning": "ロマンチックな"},
+    {"word": "smell", "meaning": "香り"}
+  ],
+  "quiz2": {
+    "question": "レストランのテラスから何が見えましたか？",
+    "options": ["海とビーチ", "街の明かりと川", "山と森"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで照り焼きチキンを作るなら",
+    "content": "オーストラリアのスーパーでは鶏もも肉は「chicken thigh」として売っています。骨なしは「boneless」、皮つきは「skin on」と書いてあります。照り焼きには皮つきのものがおすすめです。\n\nみりん（mirin）と醤油（soy sauce）はアジア食材コーナーで買えます。もしみりんがなければ、砂糖を少し多めに入れると近い味になります。\n\nKangaroo Pointはブリスベンの人気スポットです。川沿いのCliffs Parkからはブリスベンの街がきれいに見えます。夜景も美しいので、仕事終わりにお散歩するのもいいですね。\n\nワーホリ中にカフェやレストランで働くなら、「teriyaki」は海外でも通じる言葉です。オーストラリアでは照り焼きは「Teriyaki Chicken Bowl」としてフードコートでも人気があります。日本の味を知っていることは強みになりますよ。"
+  },
+  "conversation": {
+    "scene": "職場のランチタイムに、同僚のSophieとお弁当について話す場面",
+    "lines": [
+      {"speaker": "A", "text": "Sophie, what did you bring for lunch today?"},
+      {"speaker": "B", "text": "Just a sandwich. What about you?"},
+      {"speaker": "A", "text": "I made teriyaki chicken and rice."},
+      {"speaker": "B", "text": "Oh, I love teriyaki! Did you make the sauce too?"},
+      {"speaker": "A", "text": "Yes! I used soy sauce, mirin, and sugar."},
+      {"speaker": "B", "text": "It smells so good. Is it hard to make?"},
+      {"speaker": "A", "text": "No, it is very easy. You just cook the chicken and add the sauce."},
+      {"speaker": "B", "text": "How long does it take?"},
+      {"speaker": "A", "text": "About fifteen minutes."},
+      {"speaker": "B", "text": "That is fast! Can you teach me sometime?"},
+      {"speaker": "A", "text": "Of course! We can cook together this weekend."},
+      {"speaker": "B", "text": "Great! I will buy the chicken. You bring the sauce."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "bring", "meaning": "持ってくる"},
+    {"word": "sandwich", "meaning": "サンドイッチ"},
+    {"word": "sauce", "meaning": "ソース・たれ"},
+    {"word": "hard", "meaning": "難しい"},
+    {"word": "easy", "meaning": "簡単な"},
+    {"word": "how long", "meaning": "どのくらい（時間）"},
+    {"word": "fifteen", "meaning": "15"},
+    {"word": "fast", "meaning": "早い"},
+    {"word": "teach", "meaning": "教える"},
+    {"word": "weekend", "meaning": "週末"}
+  ],
+  "quiz3": {
+    "question": "二人は週末に何をする予定ですか？",
+    "options": ["レストランに行く", "一緒に照り焼きチキンを作る", "スーパーに買い物に行く"],
+    "correct": 1
+  },
+  "try_it_hint": "「作るのは難しいですか？」「いいえ、とても簡単です。」という会話を英語で書いてみましょう。例：Is it hard to make? No, it is very easy.",
+  "meta": {"day": 12, "en": "Teriyaki Chicken", "ja": "照り焼きチキン", "emoji": "\ud83c\udf57"}
+}

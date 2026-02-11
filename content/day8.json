@@ -1,0 +1,96 @@
+{
+  "recipe": {
+    "title": "How to Make Ramen",
+    "intro": "Ramen is a popular Japanese noodle soup. The warm broth is very comforting.",
+    "ingredients": "ramen noodles, pork, egg, soy sauce, miso, garlic, green onion, nori, water, sesame oil",
+    "steps": [
+      "**Boil** water in a big pot and cook the noodles for three minutes.",
+      "**Make** the broth with water, soy sauce, miso, and garlic in another pot.",
+      "**Cook** the pork in a pan with sesame oil until it is brown.",
+      "**Boil** an egg for seven minutes, then put it in cold water and peel it.",
+      "**Put** the noodles in a bowl and pour the hot broth over them.",
+      "**Add** the pork, egg, green onion, and nori on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "noodle", "meaning": "麺"},
+    {"word": "soup", "meaning": "スープ"},
+    {"word": "broth", "meaning": "だし汁・スープ"},
+    {"word": "garlic", "meaning": "にんにく"},
+    {"word": "sesame oil", "meaning": "ごま油"},
+    {"word": "brown", "meaning": "茶色・こんがりした"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "bowl", "meaning": "丼・ボウル"},
+    {"word": "nori", "meaning": "のり"},
+    {"word": "on top", "meaning": "上にのせて"},
+    {"word": "comforting", "meaning": "ほっとする"}
+  ],
+  "quiz1": {
+    "question": "ラーメンの麺は何分ゆでますか？",
+    "options": ["3分", "5分", "7分"],
+    "correct": 0
+  },
+  "review": {
+    "restaurant": "Harbour Light Noodle Bar",
+    "location": "Kirribilli, Sydney",
+    "stars": 5,
+    "content": "I went to Harbour Light Noodle Bar in Kirribilli last week. It was near the harbour. I could see the Sydney Harbour Bridge from my seat. The view was amazing. I ordered miso ramen. The broth was hot and so good. The noodles were perfect. The restaurant was small and cozy. There were warm yellow lights inside. I felt very happy there."
+  },
+  "review_vocab": [
+    {"word": "harbour", "meaning": "港"},
+    {"word": "bridge", "meaning": "橋"},
+    {"word": "view", "meaning": "景色"},
+    {"word": "amazing", "meaning": "すばらしい"},
+    {"word": "seat", "meaning": "席"},
+    {"word": "perfect", "meaning": "完璧な"},
+    {"word": "small", "meaning": "小さい"},
+    {"word": "warm", "meaning": "暖かい"},
+    {"word": "light", "meaning": "照明・光"},
+    {"word": "felt", "meaning": "感じた（feelの過去形）"}
+  ],
+  "quiz2": {
+    "question": "このレストランから何が見えましたか？",
+    "options": ["オペラハウス", "シドニーハーバーブリッジ", "ビーチ"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでラーメンを作ろう！🍜",
+    "content": "オーストラリアでもラーメンはとても人気があります。アジア食材店では、生麺やインスタント麺が手に入ります。味噌は「Miso Paste」という名前で売っています。のりも「Nori」として見つかりますよ。大きなスーパーでも日本食コーナーに置いてあることがあります。\n\nシドニーのキリビリ（Kirribilli）は、ハーバーブリッジのすぐ北側にある静かで美しい街です。水辺のカフェからはハーバーブリッジやオペラハウスが見え、絶景を楽しめます。朝のコーヒータイムに港の景色を眺めるのは最高です。\n\nオーストラリアにはラーメン専門店もたくさんあり、シドニーやブリスベンでは「Ramen」の看板をよく見かけます。日本のラーメンと少し違うアレンジのものもあるので、食べ比べてみるのも楽しいです。\n\nワーホリ中にラーメン屋さんで働く日本人も多いです。「What kind of ramen do you like?（どんなラーメンが好きですか？）」という質問はよく使うので、覚えておくと便利です。キリビリの夕暮れは空がピンクやラベンダー色に染まり、とてもロマンチックな雰囲気ですよ。"
+  },
+  "conversation": {
+    "scene": "ラーメン屋で友達と一緒にラーメンを注文する場面",
+    "lines": [
+      {"speaker": "A", "text": "This ramen shop looks nice. Let's go in!"},
+      {"speaker": "B", "text": "OK! I am very hungry."},
+      {"speaker": "A", "text": "What kind of ramen do you like?"},
+      {"speaker": "B", "text": "I like miso ramen. How about you?"},
+      {"speaker": "A", "text": "I want to try soy sauce ramen."},
+      {"speaker": "B", "text": "Good choice. Do you want an egg on top?"},
+      {"speaker": "A", "text": "Yes, please! I love soft eggs."},
+      {"speaker": "B", "text": "Me too. Let's order."},
+      {"speaker": "A", "text": "Excuse me, one miso ramen and one soy sauce ramen, please."},
+      {"speaker": "B", "text": "And two eggs, please."},
+      {"speaker": "A", "text": "The broth smells so good!"},
+      {"speaker": "B", "text": "Yes! I cannot wait to eat."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "shop", "meaning": "お店"},
+    {"word": "hungry", "meaning": "お腹がすいた"},
+    {"word": "kind", "meaning": "種類"},
+    {"word": "how about you", "meaning": "あなたはどう？"},
+    {"word": "choice", "meaning": "選択"},
+    {"word": "on top", "meaning": "上に"},
+    {"word": "order", "meaning": "注文する"},
+    {"word": "excuse me", "meaning": "すみません"},
+    {"word": "cannot wait", "meaning": "待ちきれない"},
+    {"word": "please", "meaning": "お願いします"}
+  ],
+  "quiz3": {
+    "question": "Aさんは何ラーメンを注文しましたか？",
+    "options": ["味噌ラーメン", "醤油ラーメン", "塩ラーメン"],
+    "correct": 1
+  },
+  "try_it_hint": "「What kind of ○○ do you like?」の形を使って、好きな種類を聞いてみましょう。例：What kind of pizza do you like?",
+  "meta": {"day": 8, "en": "Ramen", "ja": "ラーメン", "emoji": "🍜"}
+}

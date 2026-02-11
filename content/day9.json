@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "title": "How to Make Onigiri",
+    "intro": "Onigiri is a Japanese rice ball. It is easy to make and great for lunch.",
+    "ingredients": "cooked rice, salt, nori, tuna, mayonnaise, umeboshi, salmon",
+    "steps": [
+      "**Mix** tuna and mayonnaise in a small bowl.",
+      "**Wet** your hands with water and put some salt on them.",
+      "**Put** warm rice on your hand and make a small hole in the middle.",
+      "**Put** the tuna, umeboshi, or salmon in the hole.",
+      "**Close** the rice and press it into a triangle shape with your hands.",
+      "**Wrap** the onigiri with nori and put it on a plate. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "rice ball", "meaning": "おにぎり"},
+    {"word": "wet", "meaning": "ぬらす"},
+    {"word": "hole", "meaning": "穴"},
+    {"word": "middle", "meaning": "真ん中"},
+    {"word": "press", "meaning": "押す・握る"},
+    {"word": "triangle", "meaning": "三角形"},
+    {"word": "shape", "meaning": "形"},
+    {"word": "wrap", "meaning": "包む・巻く"},
+    {"word": "tuna", "meaning": "ツナ"},
+    {"word": "salmon", "meaning": "サーモン・鮭"}
+  ],
+  "quiz1": {
+    "question": "おにぎりを握る前に、手に何をつけますか？",
+    "options": ["砂糖", "油", "水と塩"],
+    "correct": 2
+  },
+  "review": {
+    "restaurant": "Bondi Morning Café",
+    "location": "Bondi, Sydney",
+    "stars": 5,
+    "content": "I visited Bondi Morning Café last Saturday. It was right next to Bondi Beach. I sat outside and watched the beautiful ocean. The waves were blue and white. I had salmon onigiri and green tea. The onigiri was fresh and delicious. The café was small and cozy with light pink walls. There were pretty flowers on every table. It was a wonderful morning."
+  },
+  "review_vocab": [
+    {"word": "beach", "meaning": "ビーチ・海辺"},
+    {"word": "ocean", "meaning": "海"},
+    {"word": "wave", "meaning": "波"},
+    {"word": "watched", "meaning": "眺めた"},
+    {"word": "fresh", "meaning": "新鮮な"},
+    {"word": "right next to", "meaning": "すぐ隣に"},
+    {"word": "wall", "meaning": "壁"},
+    {"word": "pretty", "meaning": "かわいい・きれいな"},
+    {"word": "wonderful", "meaning": "すばらしい"},
+    {"word": "every", "meaning": "すべての"}
+  ],
+  "quiz2": {
+    "question": "カフェの壁は何色でしたか？",
+    "options": ["黄色", "薄いピンク", "白"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでおにぎりを作ろう！🍙",
+    "content": "オーストラリアのスーパーでは、日本のお米に近い短粒米（Short Grain Rice）が手に入ります。アジア食材店では「Sushi Rice」として売られていることも多いです。のりは「Nori Sheets」として、ツナ缶は「Tuna」として普通のスーパーで買えます。\n\nシドニーのボンダイビーチ（Bondi Beach）は、オーストラリアで最も有名なビーチの一つです。青い海と白い砂浜が広がり、サーファーや観光客でにぎわっています。ビーチ沿いにはおしゃれなカフェがたくさんあり、海を見ながらコーヒーを楽しめます。\n\nおにぎりはピクニックやビーチランチにぴったりです。ボンダイからクージー（Coogee）までの海岸沿いの遊歩道「Coastal Walk」は、絶景スポットがいっぱいで、途中でおにぎりを食べるのもおすすめです。春には遊歩道沿いに色とりどりの花が咲き、ジャスミンの香りがする場所もあります。\n\nワーホリ中のランチにおにぎりを持っていくと、オーストラリア人の同僚に「What is that?（それ何？）」と聞かれることがよくあります。日本の食文化を紹介するいいチャンスになりますよ。「It is a rice ball. It has salmon inside.（おにぎりだよ。中にサーモンが入っているよ）」と簡単に説明できれば大丈夫です。"
+  },
+  "conversation": {
+    "scene": "ビーチでピクニック中、オーストラリア人の友達におにぎりを紹介する場面",
+    "lines": [
+      {"speaker": "A", "text": "What is that? It looks interesting!"},
+      {"speaker": "B", "text": "This is onigiri. It is a Japanese rice ball."},
+      {"speaker": "A", "text": "What is inside?"},
+      {"speaker": "B", "text": "This one has tuna. That one has salmon."},
+      {"speaker": "A", "text": "Can I try the salmon one?"},
+      {"speaker": "B", "text": "Sure! Here you go."},
+      {"speaker": "A", "text": "Mmm, this is really good!"},
+      {"speaker": "B", "text": "Thank you! It is easy to make."},
+      {"speaker": "A", "text": "Can you teach me how to make it?"},
+      {"speaker": "B", "text": "Of course! You need rice, salt, nori, and a filling."},
+      {"speaker": "A", "text": "What is nori?"},
+      {"speaker": "B", "text": "It is the black sheet around the rice. It is seaweed."},
+      {"speaker": "A", "text": "Oh, I see! I want to try making it at home."},
+      {"speaker": "B", "text": "Let's make onigiri together this weekend!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "interesting", "meaning": "おもしろい・興味深い"},
+    {"word": "inside", "meaning": "中に"},
+    {"word": "this one", "meaning": "こっちの"},
+    {"word": "here you go", "meaning": "はいどうぞ"},
+    {"word": "really", "meaning": "本当に"},
+    {"word": "easy", "meaning": "簡単な"},
+    {"word": "filling", "meaning": "具材・中身"},
+    {"word": "sheet", "meaning": "シート・一枚"},
+    {"word": "seaweed", "meaning": "海藻"},
+    {"word": "weekend", "meaning": "週末"}
+  ],
+  "quiz3": {
+    "question": "Aさんはどの味のおにぎりを食べましたか？",
+    "options": ["ツナ", "サーモン", "梅干し"],
+    "correct": 1
+  },
+  "try_it_hint": "「This is ○○. It is ○○.」の形を使って、日本の食べ物を紹介してみましょう。例：This is mochi. It is a Japanese rice cake.",
+  "meta": {"day": 9, "en": "Onigiri", "ja": "おにぎり", "emoji": "🍙"}
+}

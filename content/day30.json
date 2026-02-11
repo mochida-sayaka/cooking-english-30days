@@ -1,0 +1,97 @@
+{
+  "recipe": {
+    "title": "How to Make Matcha Pudding",
+    "intro": "Matcha pudding is a sweet and creamy Japanese dessert. It has a beautiful green color and a gentle tea taste.",
+    "ingredients": "matcha powder, milk, sugar, gelatin powder, hot water, cream, vanilla extract",
+    "steps": [
+      "**Mix** the matcha powder and a little hot water in a cup until smooth.",
+      "**Heat** the milk and sugar in a pot, but do not boil it.",
+      "**Add** the gelatin powder to the warm milk and stir well.",
+      "**Pour** the matcha mix into the pot and stir again.",
+      "**Put** the mix into small cups or glasses.",
+      "**Cool** them in the fridge for three hours, then add cream on top. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "dessert", "meaning": "デザート"},
+    {"word": "creamy", "meaning": "クリーミーな"},
+    {"word": "gentle", "meaning": "やさしい・穏やかな"},
+    {"word": "powder", "meaning": "粉"},
+    {"word": "smooth", "meaning": "なめらかな"},
+    {"word": "boil", "meaning": "沸騰させる"},
+    {"word": "gelatin", "meaning": "ゼラチン"},
+    {"word": "fridge", "meaning": "冷蔵庫"},
+    {"word": "vanilla", "meaning": "バニラ"},
+    {"word": "cream", "meaning": "クリーム"}
+  ],
+  "quiz1": {
+    "question": "抹茶プリンはどのくらい冷蔵庫で冷やしますか？",
+    "options": ["1時間", "2時間", "3時間"],
+    "correct": 2
+  },
+  "review": {
+    "restaurant": "Jasmine & Mimosa Dessert Cafe",
+    "location": "Mosman, Sydney",
+    "stars": 5,
+    "content": "I visited Jasmine & Mimosa Dessert Cafe in Mosman to celebrate my last day of the 30-day cooking challenge. The cafe was on a hill and I could see the harbour and the blue ocean. The walls were painted in soft pink and lavender. There were jasmine and mimosa flowers by the window. I ordered matcha pudding and it was the best dessert I ever had. It was smooth and sweet. I felt so happy and proud of myself. This was a perfect ending to my 30-day journey."
+  },
+  "review_vocab": [
+    {"word": "celebrate", "meaning": "お祝いする"},
+    {"word": "challenge", "meaning": "チャレンジ・挑戦"},
+    {"word": "hill", "meaning": "丘"},
+    {"word": "painted", "meaning": "塗られた"},
+    {"word": "window", "meaning": "窓"},
+    {"word": "best", "meaning": "最高の"},
+    {"word": "proud", "meaning": "誇りに思う"},
+    {"word": "perfect", "meaning": "完璧な"},
+    {"word": "ending", "meaning": "終わり・結末"},
+    {"word": "journey", "meaning": "旅・道のり"}
+  ],
+  "quiz2": {
+    "question": "レビューの人はなぜこのカフェを訪れましたか？",
+    "options": ["友達の誕生日だから", "30日チャレンジの最終日を祝うため", "新しいカフェだから"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで抹茶プリンを作るなら",
+    "content": "抹茶パウダー（matcha powder）はオーストラリアでも人気が高まっています。スーパーの紅茶コーナーや健康食品コーナーで見つかることもありますが、品質の良いものはアジア食材店や日本食材専門店で買うのがおすすめです。「cooking grade matcha」で十分おいしく作れます。\n\nゼラチンパウダー（gelatin powder）はスーパーのお菓子作りコーナーにあります。牛乳、砂糖、生クリームも簡単に手に入るので、材料集めに困ることはありません。\n\nモスマン（Mosman）はシドニーの高級住宅地で、ハーバーの景色が美しいエリアです。タロンガ動物園の近くにあり、おしゃれなカフェが多いです。フェリーでも行けるので、休日のお出かけにぴったりです。\n\n30日間のクッキング英語チャレンジ、お疲れさまでした！この30日間で学んだ英語と料理の知識は、オーストラリアでのワーキングホリデー生活できっと役に立ちます。レストランやカフェでの仕事、シェアハウスでの料理、友達との食事の会話…自信を持って楽しんでくださいね！"
+  },
+  "conversation": {
+    "scene": "30日チャレンジの最終日、シェアハウスの友達と一緒にお祝いパーティーをする場面",
+    "lines": [
+      {"speaker": "A", "text": "Today is my last day of the 30-day cooking challenge!"},
+      {"speaker": "B", "text": "Congratulations! That is amazing. What will you make today?"},
+      {"speaker": "A", "text": "Matcha pudding! It is a Japanese green tea dessert."},
+      {"speaker": "B", "text": "I love matcha! Can I watch you make it?"},
+      {"speaker": "A", "text": "Of course! First, I mix matcha and hot water."},
+      {"speaker": "B", "text": "The color is so beautiful. It is bright green."},
+      {"speaker": "A", "text": "Thank you. Now I add it to the warm milk."},
+      {"speaker": "B", "text": "When can we eat it?"},
+      {"speaker": "A", "text": "We need to wait three hours. It goes in the fridge."},
+      {"speaker": "B", "text": "OK! I will wait. You learned so many recipes in 30 days."},
+      {"speaker": "A", "text": "Yes! I learned new English words too. I feel more confident now."},
+      {"speaker": "B", "text": "You should be proud. Your English is much better now!"},
+      {"speaker": "A", "text": "Thank you, that means a lot. Let us enjoy the pudding together!"},
+      {"speaker": "B", "text": "Cheers to 30 days! You did a great job!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "congratulations", "meaning": "おめでとう"},
+    {"word": "amazing", "meaning": "すごい"},
+    {"word": "bright", "meaning": "鮮やかな・明るい"},
+    {"word": "learned", "meaning": "学んだ（learnの過去形）"},
+    {"word": "confident", "meaning": "自信がある"},
+    {"word": "proud", "meaning": "誇りに思う"},
+    {"word": "means a lot", "meaning": "とてもうれしい（直訳：大きな意味がある）"},
+    {"word": "cheers", "meaning": "乾杯"},
+    {"word": "great job", "meaning": "よくがんばった"},
+    {"word": "together", "meaning": "一緒に"}
+  ],
+  "quiz3": {
+    "question": "会話の中で、30日間のチャレンジを通じて何を学んだと言っていましたか？",
+    "options": ["新しいレシピだけ", "新しいレシピと英単語", "英語の歌"],
+    "correct": 1
+  },
+  "try_it_hint": "「30日間がんばりました！」という気持ちを英語で書いてみましょう。例：I learned 30 recipes in 30 days. I feel more confident now. I am proud of myself!",
+  "meta": {"day": 30, "en": "Matcha Pudding", "ja": "抹茶プリン", "emoji": "\ud83c\udf75"}
+}

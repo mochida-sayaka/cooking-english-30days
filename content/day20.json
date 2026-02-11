@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Edamame",
+    "intro": "Edamame is boiled young soybeans. It is a simple and healthy Japanese snack.",
+    "ingredients": "edamame in shells, water, salt",
+    "steps": [
+      "**Wash** the edamame in cold water.",
+      "**Put** salt on the edamame and rub them with your hands.",
+      "**Boil** a big pot of water with some salt.",
+      "**Add** the edamame to the boiling water.",
+      "**Cook** for 4 minutes, then take them out.",
+      "**Put** a little more salt on top and eat them from the shell. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "boil", "meaning": "ゆでる、沸騰させる"},
+    {"word": "soybean", "meaning": "大豆"},
+    {"word": "snack", "meaning": "おやつ、おつまみ"},
+    {"word": "shell", "meaning": "さや、殻"},
+    {"word": "rub", "meaning": "こする"},
+    {"word": "healthy", "meaning": "健康的な"},
+    {"word": "salt", "meaning": "塩"},
+    {"word": "wash", "meaning": "洗う"},
+    {"word": "simple", "meaning": "シンプルな、簡単な"},
+    {"word": "young", "meaning": "若い"}
+  ],
+  "quiz1": {
+    "question": "レシピによると、枝豆をゆでる時間はどのくらいですか？",
+    "options": ["2分", "4分", "6分"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Ocean Breeze Cafe",
+    "location": "West End, Brisbane",
+    "stars": 5,
+    "content": "I visited Ocean Breeze Cafe last week. It was near the river in West End. There was a lovely ocean-blue wall inside. I sat on a soft sofa by the window. The breeze from outside was nice and cool. I ordered edamame and a cold drink. The edamame had just the right amount of salt. It was so good with my drink. There were jasmine flowers in a small vase on the table. The cafe was very relaxing. I stayed for two hours and read my book."
+  },
+  "review_vocab": [
+    {"word": "breeze", "meaning": "そよ風"},
+    {"word": "wall", "meaning": "壁"},
+    {"word": "sofa", "meaning": "ソファ"},
+    {"word": "amount", "meaning": "量"},
+    {"word": "vase", "meaning": "花瓶"},
+    {"word": "relaxing", "meaning": "リラックスできる"},
+    {"word": "stayed", "meaning": "滞在した"},
+    {"word": "hour", "meaning": "時間"},
+    {"word": "read", "meaning": "読んだ"},
+    {"word": "inside", "meaning": "中に"}
+  ],
+  "quiz2": {
+    "question": "レビューによると、テーブルの上の花瓶には何の花がありましたか？",
+    "options": ["ミモザ", "バラ", "ジャスミン"],
+    "correct": 2
+  },
+  "australia_tips": {
+    "title": "オーストラリアで枝豆を楽しもう！",
+    "content": "枝豆（edamame）は、オーストラリアでもとても人気があります。スーパーのColesやWoolworthsの冷凍コーナーで「frozen edamame」として売っています。冷凍枝豆は安くて便利なので、ワーホリ中の強い味方です。\n\nオーストラリアのパブやバーでも、枝豆がメニューにあることが増えています。「edamame」と言えば通じます。ビールのおつまみとして注文している人も多いですよ。\n\nワーホリ中、疲れた日の夜には枝豆がぴったりです。お湯を沸かして4分ゆでるだけ。塩をかけて食べれば、日本にいた時のように落ち着きます。シェアハウスでテレビを見ながら枝豆を食べるのもいいですね。\n\nブリスベンのWest End（ウエストエンド）は、多国籍でおしゃれなエリアです。かわいいカフェや雑貨屋さんがたくさんあります。週末のマーケットもおすすめです。"
+  },
+  "conversation": {
+    "scene": "オーストラリアのパブで友達と枝豆を注文する場面",
+    "lines": [
+      {"speaker": "A", "text": "Let's get some snacks. What do you want?"},
+      {"speaker": "B", "text": "How about edamame? Do they have it here?"},
+      {"speaker": "A", "text": "Yes, look! It is on the menu. Good idea!"},
+      {"speaker": "B", "text": "Great. I love edamame with a cold drink."},
+      {"speaker": "A", "text": "Me too! Excuse me, can we get one edamame, please?"},
+      {"speaker": "B", "text": "And two lemonades, please."},
+      {"speaker": "A", "text": "Do you eat edamame a lot in Japan?"},
+      {"speaker": "B", "text": "Yes, we eat it in summer. It is a popular snack."},
+      {"speaker": "A", "text": "How do you eat it? I am new to this."},
+      {"speaker": "B", "text": "You push the beans out of the shell with your fingers."},
+      {"speaker": "A", "text": "Like this? Oh, it is easy and fun!"},
+      {"speaker": "B", "text": "Yes! And do not eat the shell. Only the beans inside."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "snack", "meaning": "おつまみ、軽食"},
+    {"word": "how about", "meaning": "〜はどう？"},
+    {"word": "idea", "meaning": "考え、アイデア"},
+    {"word": "excuse me", "meaning": "すみません"},
+    {"word": "lemonade", "meaning": "レモネード"},
+    {"word": "summer", "meaning": "夏"},
+    {"word": "new", "meaning": "初めての、新しい"},
+    {"word": "push", "meaning": "押す"},
+    {"word": "bean", "meaning": "豆"},
+    {"word": "finger", "meaning": "指"}
+  ],
+  "quiz3": {
+    "question": "会話で、Bさんは枝豆の食べ方をどう説明しましたか？",
+    "options": ["箸で食べる", "指でさやから豆を押し出す", "さやごと食べる"],
+    "correct": 1
+  },
+  "try_it_hint": "「How about ___? Do they have it here?」のように、お店で食べたいものを提案してみましょう！",
+  "meta": {"day": 20, "en": "Edamame", "ja": "枝豆", "emoji": "🫛"}
+}

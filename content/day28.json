@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Takowasa",
+    "intro": "Takowasa is a Japanese snack of raw octopus with wasabi. It is a popular side dish at izakayas.",
+    "ingredients": "raw octopus (sashimi grade), wasabi, soy sauce, salt, mirin, sesame seeds, shiso leaf",
+    "steps": [
+      "**Cut** the raw octopus into small bite-size pieces.",
+      "**Put** the octopus pieces in a bowl.",
+      "**Mix** the wasabi, soy sauce, and a little mirin in a small cup.",
+      "**Pour** the wasabi sauce over the octopus.",
+      "**Stir** everything gently with chopsticks.",
+      "**Put** it on a plate with a shiso leaf and sesame seeds. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "octopus", "meaning": "タコ"},
+    {"word": "raw", "meaning": "生の"},
+    {"word": "snack", "meaning": "おつまみ・軽食"},
+    {"word": "side dish", "meaning": "副菜・小皿料理"},
+    {"word": "bite-size", "meaning": "一口サイズの"},
+    {"word": "sauce", "meaning": "たれ・ソース"},
+    {"word": "stir", "meaning": "かき混ぜる"},
+    {"word": "gently", "meaning": "やさしく"},
+    {"word": "chopsticks", "meaning": "箸"},
+    {"word": "plate", "meaning": "皿"}
+  ],
+  "quiz1": {
+    "question": "たこわさのレシピで、わさびだれを作るとき何を混ぜますか？",
+    "options": ["わさびと酢と砂糖", "わさびと醤油とみりん", "わさびとごま油と塩"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Sunset Wharf Kitchen",
+    "location": "Palm Beach, Sydney",
+    "stars": 5,
+    "content": "I went to Sunset Wharf Kitchen at Palm Beach last Friday. It was right next to the water. I could see the sunset over the ocean. The sky was orange and pink. I ordered takowasa and it was very fresh. The wasabi was a little spicy but so tasty. The restaurant had a wooden deck and it felt very relaxing. I loved this place."
+  },
+  "review_vocab": [
+    {"word": "sunset", "meaning": "夕日・日の入り"},
+    {"word": "wharf", "meaning": "波止場・桟橋"},
+    {"word": "right next to", "meaning": "すぐ隣に"},
+    {"word": "sky", "meaning": "空"},
+    {"word": "spicy", "meaning": "辛い"},
+    {"word": "tasty", "meaning": "おいしい"},
+    {"word": "wooden", "meaning": "木製の"},
+    {"word": "deck", "meaning": "デッキ・甲板"},
+    {"word": "loved", "meaning": "大好きだった（loveの過去形）"},
+    {"word": "felt", "meaning": "感じた（feelの過去形）"}
+  ],
+  "quiz2": {
+    "question": "レビューのレストランで、空は何色でしたか？",
+    "options": ["青と白", "オレンジとピンク", "紫と黄色"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアでたこわさを作るなら",
+    "content": "刺身用のタコ（sashimi-grade octopus）は、フィッシュマーケット（fish market）で買うのがおすすめです。シドニーのフィッシュマーケットは世界でも有名で、新鮮な魚介類がそろっています。「Is this sashimi grade?」と聞いてみましょう。\n\nわさびはアジア食材店やスーパーのアジアンコーナーで買えます。チューブ入りのわさび（wasabi paste）が便利です。本格的なものが欲しい場合は、日本食材専門店で探しましょう。\n\nパームビーチ（Palm Beach）はシドニーの北にある美しいビーチです。ドラマの撮影にも使われる場所で、夕日がとてもきれいです。バスで行けるので、休みの日にぜひ訪れてみてください。\n\nオーストラリアでは「izakaya」という言葉が広まりつつあります。日本式の居酒屋スタイルのレストランも増えていて、たこわさのような小皿料理（small plates）が人気です。"
+  },
+  "conversation": {
+    "scene": "友達とシドニーのフィッシュマーケットで買い物をする場面",
+    "lines": [
+      {"speaker": "A", "text": "Wow, this fish market is so big!"},
+      {"speaker": "B", "text": "Yes! There are many kinds of fish and seafood here."},
+      {"speaker": "A", "text": "I want to buy octopus. I will make takowasa."},
+      {"speaker": "B", "text": "What is takowasa?"},
+      {"speaker": "A", "text": "It is raw octopus with wasabi. It is a Japanese snack."},
+      {"speaker": "B", "text": "Oh, that sounds interesting! Is it spicy?"},
+      {"speaker": "A", "text": "A little. But it is very good with cold beer."},
+      {"speaker": "B", "text": "I want to try it. How much octopus do we need?"},
+      {"speaker": "A", "text": "About 200 grams is enough for two people."},
+      {"speaker": "B", "text": "OK. Let me ask the staff. Excuse me, is this octopus sashimi grade?"},
+      {"speaker": "A", "text": "He said yes. Great! Let us buy it."},
+      {"speaker": "B", "text": "I am excited to try your takowasa tonight!"}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "fish market", "meaning": "魚市場"},
+    {"word": "seafood", "meaning": "魚介類・シーフード"},
+    {"word": "interesting", "meaning": "面白い・興味深い"},
+    {"word": "enough", "meaning": "十分な"},
+    {"word": "staff", "meaning": "スタッフ・店員"},
+    {"word": "grade", "meaning": "品質・等級"},
+    {"word": "excited", "meaning": "ワクワクした"},
+    {"word": "kinds", "meaning": "種類"},
+    {"word": "about", "meaning": "約・だいたい"},
+    {"word": "let me", "meaning": "〜させて"}
+  ],
+  "quiz3": {
+    "question": "会話の中で、タコはどのくらいの量が必要だと言っていましたか？",
+    "options": ["100グラム", "200グラム", "300グラム"],
+    "correct": 1
+  },
+  "try_it_hint": "「〇〇はどこで買えますか？」と聞く練習をしましょう。例：Where can I buy fresh octopus? Is this sashimi grade?",
+  "meta": {"day": 28, "en": "Takowasa", "ja": "たこわさ", "emoji": "\ud83d\udc19"}
+}

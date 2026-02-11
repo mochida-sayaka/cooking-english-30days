@@ -1,0 +1,95 @@
+{
+  "recipe": {
+    "title": "How to Make Nikujaga",
+    "intro": "Nikujaga is a Japanese meat and potato stew. It is sweet and warm, and very good for cold days.",
+    "ingredients": "thin beef slices, potatoes, onion, carrot, soy sauce, sugar, mirin, water, cooking oil",
+    "steps": [
+      "**Cut** the potatoes and carrot into big pieces.",
+      "**Slice** the onion into thin pieces.",
+      "**Heat** oil in a big pot and cook the beef.",
+      "**Add** the onion, potatoes, and carrot to the pot.",
+      "**Pour** water, soy sauce, sugar, and mirin into the pot.",
+      "**Cook** on low heat for 20 minutes until soft. **Enjoy!**"
+    ]
+  },
+  "recipe_vocab": [
+    {"word": "stew", "meaning": "シチュー、煮込み料理"},
+    {"word": "potato", "meaning": "じゃがいも"},
+    {"word": "thin", "meaning": "薄い"},
+    {"word": "slice", "meaning": "薄く切る"},
+    {"word": "pot", "meaning": "鍋"},
+    {"word": "pour", "meaning": "注ぐ"},
+    {"word": "low heat", "meaning": "弱火"},
+    {"word": "soft", "meaning": "やわらかい"},
+    {"word": "piece", "meaning": "一切れ、かけら"},
+    {"word": "warm", "meaning": "あたたかい"}
+  ],
+  "quiz1": {
+    "question": "レシピによると、煮込む時間はどのくらいですか？",
+    "options": ["10分", "20分", "30分"],
+    "correct": 1
+  },
+  "review": {
+    "restaurant": "Jasmine River Kitchen",
+    "location": "Southbank, Brisbane",
+    "stars": 5,
+    "content": "I went to Jasmine River Kitchen last Sunday. It was by the river in Southbank. The view of the water was so pretty. I sat at a table near the window. The nikujaga was very warm and sweet. The potatoes were so soft. It was like my mother's cooking. The restaurant was small and cozy. I saw pink flowers on each table. I want to go there again."
+  },
+  "review_vocab": [
+    {"word": "river", "meaning": "川"},
+    {"word": "view", "meaning": "景色、眺め"},
+    {"word": "pretty", "meaning": "きれいな"},
+    {"word": "window", "meaning": "窓"},
+    {"word": "cozy", "meaning": "居心地の良い"},
+    {"word": "flower", "meaning": "花"},
+    {"word": "table", "meaning": "テーブル"},
+    {"word": "again", "meaning": "また"},
+    {"word": "cooking", "meaning": "料理"},
+    {"word": "each", "meaning": "それぞれの"}
+  ],
+  "quiz2": {
+    "question": "このレストランはどこにありますか？",
+    "options": ["海のそば", "川のそば", "山のそば"],
+    "correct": 1
+  },
+  "australia_tips": {
+    "title": "オーストラリアで肉じゃがを作ろう！",
+    "content": "オーストラリアのスーパーでは、薄切り肉はあまり見かけません。アジア系のお店（Asian grocery store）に行くと、日本のような薄切り肉が手に入ります。ブリスベンならSunnybank、シドニーならBurwoodのアジア食材店がおすすめです。\n\nみりんや醤油も、アジア食材店で買えます。最近はColesやWoolworthsなどの大手スーパーでも「soy sauce」は売っています。砂糖（sugar）は普通のスーパーで買えるので安心です。\n\nワーホリ中のシェアハウスでは、キッチンを他の人と共有します。大きな鍋で肉じゃがを作ると、ハウスメイトにも喜ばれますよ。「Do you want some?（食べる？）」と声をかけてみましょう。\n\n肉じゃがは日本の家庭料理の定番です。オーストラリアの友達に「This is Japanese home cooking（これは日本の家庭料理だよ）」と紹介すると、とても興味を持ってくれます。"
+  },
+  "conversation": {
+    "scene": "シェアハウスのキッチンで、肉じゃがを作っている時にハウスメイトが来た場面",
+    "lines": [
+      {"speaker": "A", "text": "Hi! What are you cooking? It smells good!"},
+      {"speaker": "B", "text": "Hi! I am making nikujaga. It is a Japanese stew."},
+      {"speaker": "A", "text": "Nikujaga? What is in it?"},
+      {"speaker": "B", "text": "Meat, potatoes, onion, and carrot."},
+      {"speaker": "A", "text": "Oh, it looks warm and nice."},
+      {"speaker": "B", "text": "Yes! It is sweet and salty. Do you want some?"},
+      {"speaker": "A", "text": "Really? Can I try it?"},
+      {"speaker": "B", "text": "Of course! Please wait ten minutes. It is almost ready."},
+      {"speaker": "A", "text": "Thank you! I love trying new food."},
+      {"speaker": "B", "text": "I am happy. This is my mother's recipe."},
+      {"speaker": "A", "text": "That is so nice. Your mother is a good cook!"},
+      {"speaker": "B", "text": "Thank you! Please sit down. I will bring it to you."}
+    ]
+  },
+  "conversation_vocab": [
+    {"word": "smell", "meaning": "におい、におう"},
+    {"word": "stew", "meaning": "シチュー、煮込み"},
+    {"word": "salty", "meaning": "塩辛い"},
+    {"word": "try", "meaning": "試す、食べてみる"},
+    {"word": "of course", "meaning": "もちろん"},
+    {"word": "almost", "meaning": "もうすぐ、ほとんど"},
+    {"word": "ready", "meaning": "準備ができた"},
+    {"word": "recipe", "meaning": "レシピ"},
+    {"word": "cook", "meaning": "料理する人、料理する"},
+    {"word": "bring", "meaning": "持ってくる"}
+  ],
+  "quiz3": {
+    "question": "会話で、Bさんは肉じゃがを誰のレシピで作っていますか？",
+    "options": ["友達のレシピ", "自分のレシピ", "お母さんのレシピ"],
+    "correct": 2
+  },
+  "try_it_hint": "「I am making ___. It is a Japanese ___. Do you want some?」のように、自分が作っている料理を紹介してみましょう！",
+  "meta": {"day": 16, "en": "Nikujaga", "ja": "肉じゃが", "emoji": "🥔"}
+}
