@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎯 余力があるならチャレンジ！</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+      background: linear-gradient(135deg, #e8a4b8 0%, #b8a4e8 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .container { max-width: 700px; margin: 0 auto; }
+    h1 { color: white; text-align: center; margin-bottom: 8px; font-size: 28px; }
+    .subtitle { text-align: center; color: rgba(255,255,255,0.9); margin-bottom: 24px; }
+    .card {
+      background: white;
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      font-size: 20px;
+      color: #333;
+      margin-bottom: 16px;
+    }
+    .card h3 {
+      font-size: 17px;
+      color: #e8a4b8;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    .card h3:first-of-type {
+      margin-top: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 8px;
+    }
+    th {
+      background: #f3e8f0;
+      color: #7a5a8a;
+      text-align: left;
+      padding: 10px 12px;
+      font-size: 14px;
+    }
+    td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #f0f0f0;
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+    }
+    tr:last-child td {
+      border-bottom: none;
+    }
+    td:first-child {
+      white-space: nowrap;
+      font-weight: bold;
+      color: #e8a4b8;
+      min-width: 90px;
+    }
+    a.tool-link {
+      color: #7a5aad;
+      text-decoration: none;
+      border-bottom: 1px dashed #b8a4e8;
+    }
+    a.tool-link:hover {
+      color: #e8a4b8;
+      border-bottom-color: #e8a4b8;
+    }
+    .how-to p {
+      font-size: 14px;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 6px;
+    }
+    .how-to .step {
+      padding-left: 8px;
+    }
+    .how-to .hint-box {
+      background: #f8f4ff;
+      border-left: 4px solid #b8a4e8;
+      padding: 12px 16px;
+      margin: 10px 0;
+      font-size: 13px;
+      line-height: 1.8;
+      color: #555;
+      border-radius: 0 8px 8px 0;
+    }
+    .footer-nav {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+    }
+    .btn {
+      padding: 14px 24px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    .btn-secondary {
+      background: #e9ecef;
+      color: #495057;
+    }
+    .btn-secondary:hover {
+      background: #dee2e6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 余力があるならチャレンジ！</h1>
+    <p class="subtitle">自分のペースで、できることをプラスしよう</p>
+
+    <!-- 時間で選ぶ -->
+    <div class="card">
+      <h2>⏰ 時間で選ぶ</h2>
+      <table>
+        <tr><th>時間</th><th>チャレンジ</th></tr>
+        <tr><td>5分</td><td>今日の単語を使って1文作ってみる</td></tr>
+        <tr><td>10分</td><td>レシピを声に出して音読する</td></tr>
+        <tr><td>15分</td><td>Cooking With Dogで同じ料理の動画を見る</td></tr>
+        <tr><td>30分</td><td>実際に料理を作りながら英語で独り言</td></tr>
+        <tr><td>1時間</td><td>ChatGPTと今日の料理について英会話練習</td></tr>
+      </table>
+    </div>
+
+    <!-- 気分で選ぶ -->
+    <div class="card">
+      <h2>😊 気分で選ぶ</h2>
+      <table>
+        <tr><th>気分</th><th>チャレンジ</th></tr>
+        <tr><td>疲れてるけど何かしたい</td><td>動画をぼーっと見るだけ（字幕ON）</td></tr>
+        <tr><td>ちょっとやる気ある</td><td>音読 or シャドーイング</td></tr>
+        <tr><td>がっつりやりたい</td><td>実際に作る＆英語で写真キャプション</td></tr>
+        <tr><td>外出中・移動中</td><td>Google Mapでオーストラリアのお店検索＆レビュー読む</td></tr>
+        <tr><td>誰かと話したい</td><td>今日の料理を家族や友達に英語で説明</td></tr>
+      </table>
+    </div>
+
+    <!-- タイプで選ぶ -->
+    <div class="card">
+      <h2>🎨 タイプで選ぶ</h2>
+      <table>
+        <tr><th>タイプ</th><th>チャレンジ</th></tr>
+        <tr><td>聞く派</td><td>YouTube動画、Natural Readerで聞き流し</td></tr>
+        <tr><td>読む派</td><td>同じ料理の英語レシピを別サイトで探して読む</td></tr>
+        <tr><td>書く派</td><td>今日の表現で日記を5行に増やす</td></tr>
+        <tr><td>話す派</td><td>レシピを見ずに手順を英語で説明してみる</td></tr>
+        <tr><td>作る派</td><td>実際に料理して、完成写真を英語でSNS投稿</td></tr>
+      </table>
+    </div>
+
+    <!-- 使うツール一覧 -->
+    <div class="card">
+      <h2>🛠️ 使うツール一覧</h2>
+      <table>
+        <tr><th>ツール</th><th>何に使う</th><th>リンク</th></tr>
+        <tr><td>Natural Reader</td><td>英文を読み上げてもらう</td><td><a href="https://www.naturalreaders.com/online/" target="_blank" class="tool-link">開く</a></td></tr>
+        <tr><td>ChatGPT</td><td>会話練習、添削、質問</td><td><a href="https://chat.openai.com/" target="_blank" class="tool-link">開く</a></td></tr>
+        <tr><td>Cooking With Dog</td><td>日本料理の英語動画</td><td><a href="https://www.youtube.com/@cookingwithdog" target="_blank" class="tool-link">開く</a></td></tr>
+        <tr><td>Google Map</td><td>オーストラリアのお店検索</td><td><a href="https://www.google.com/maps" target="_blank" class="tool-link">開く</a></td></tr>
+        <tr><td>DeepL</td><td>わからない文を翻訳</td><td><a href="https://www.deepl.com/translator" target="_blank" class="tool-link">開く</a></td></tr>
+        <tr><td>Youglish</td><td>単語の実際の発音を聞く</td><td><a href="https://youglish.com/" target="_blank" class="tool-link">開く</a></td></tr>
+      </table>
+    </div>
+
+    <!-- ツールの使い方 -->
+    <div class="card how-to">
+      <h2>📖 ツールの使い方</h2>
+
+      <h3>🔊 Natural Reader</h3>
+      <p class="step">1. サイトを開く</p>
+      <p class="step">2. 英文をコピペ</p>
+      <p class="step">3. ▶️ ボタンで再生</p>
+      <p class="step">4. 速度調整もできる（0.5x〜2x）</p>
+
+      <h3>🤖 ChatGPT での会話練習</h3>
+      <p>学習サマリーをコピペして、こう言ってみて：</p>
+      <div class="hint-box">
+        「この内容で英会話の練習をしたいです。あなたがお客さん役、私がカフェ店員役でロールプレイしてください。簡単な英語でお願いします。」
+      </div>
+
+      <h3>🗺️ Google Map でレストラン検索</h3>
+      <p class="step">1. 「Brisbane Japanese restaurant」で検索</p>
+      <p class="step">2. 気になるお店をクリック</p>
+      <p class="step">3. 「Reviews」を英語で読んでみる</p>
+      <p class="step">4. 知らない単語があったらメモ！</p>
+
+      <h3>🎤 Youglish</h3>
+      <p class="step">1. 聞きたい単語を入力（例：delicious）</p>
+      <p class="step">2. 実際のYouTube動画でその単語が使われてる場面が出てくる</p>
+      <p class="step">3. ネイティブの発音とイントネーションを確認</p>
+    </div>
+
+    <!-- Footer Navigation -->
+    <div class="footer-nav">
+      <a href="index.html" class="btn btn-secondary">← ホームに戻る</a>
+    </div>
+  </div>
+</body>
+</html>
